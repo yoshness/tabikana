@@ -1,10 +1,13 @@
 // Init
-@import 'base/base';
-@import 'base/sanitize';
+#tabikana-page {
+	@import 'base/base';
+	@import 'base/sanitize';
 
-@import 'lib/media-queries';
-@import 'lib/utility';
+	@import 'lib/media-queries';
+	@import 'lib/utility';
 
-@import 'modules/hero';
+	@import 'modules/hero';
+	@import 'modules/header';
 
-@import 'layout/l-container';
+	@import 'layout/l-container';
+}

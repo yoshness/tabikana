@@ -1,3 +1,61 @@
 .hero {
-    color: red;
+    height: 100vh;
+
+    background-image: url(#{$path-image}/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 94px;
+
+    margin-right: -1.25em;
+
+    letter-spacing: 1.25em;
+
+    &:before {
+        font-size: 19px;
+
+        position: absolute;
+        top: 22%;
+        left: 52%;
+
+        width: 80px;
+
+        content: 'たび \A かな';
+        transform: translate(-50%, -50%);
+        letter-spacing: 1em;
+    }
+}
+
+.hero__subtitle {
+    font-family: 'Allura', cursive;
+    font-size: 63px;
+
+    margin-top: -40px;
+
+    color: $color-primary;
+}
+
+.hero__description {
+    font-size: 17px;
+
+    margin-top: 85px;
+    padding: 20px 50px;
+
+    letter-spacing: .1em;
+
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 15px 50px 1px rgba(236,243,232,1);
 }

@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+
+    width: 100%;
+    padding: 40px 0;
+}
+
+.header__logo {
+    display: block;
+
+    padding-left: 55px;
+
+    img {
+        width: 107px;
+        height: 73px;
+    }
+}
