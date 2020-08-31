@@ -28,7 +28,7 @@ $path-assets: "/public/assets";
 $path-image: "#{$path-assets}/images";
 $path-font: "#{$path-assets}/fonts";
 
-$font-crimson: 'CrimsonText-BoldItalic';
+$font-crimson: 'CrimsonText-BoldItalic', serif;
 
 @font-face {
     font-family: 'CrimsonText-BoldItalic';

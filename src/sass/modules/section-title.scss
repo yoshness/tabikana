@@ -1,0 +1,49 @@
+.section-title {
+    text-align: center;
+}
+
+.section-title__ja {
+    font-size: 40px;
+    font-weight: bold;
+
+    display: block;
+
+    letter-spacing: .2em;
+}
+
+.section-title__en {
+    font-family: $font-crimson;
+    font-size: 15px;
+    font-style: italic;
+
+    position: relative;
+    left: -5px;
+
+    display: inline-block;
+
+    letter-spacing: .15em;
+
+    color: $color-primary;
+
+    &:before,
+    &:after {
+        position: absolute;
+        top: 50%;
+
+        display: block;
+
+        width: 15px;
+        height: 1px;
+
+        content: '';
+        transform: translateY(-50%);
+
+        background-color: #000;
+    }
+    &:before {
+        left: -35px;
+    }
+    &:after {
+        right: -35px;
+    }
+}
