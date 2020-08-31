@@ -1,0 +1,65 @@
+.feature-block {
+    position: relative;
+
+    padding: 55px 50px 80px;
+
+    text-align: left;
+
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 20px 80px -55px $color-primary;
+
+    &:before {
+        font-family: $font-crimson;
+        font-size: 60px;
+        font-weight: bold;
+        font-style: italic;
+
+        position: absolute;
+        top: -40px;
+        right: 15px;
+
+        content: '0' counter(feature);
+        counter-increment: feature;
+        letter-spacing: .2em;
+
+        color: $color-primary;
+    }
+    &:after {
+        font-family: $font-crimson;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+
+        position: absolute;
+        position: absolute;
+        top: 65px;
+        right: 20px;
+
+        display: block;
+
+        content: 'Feature';
+        transform: rotate(-90deg);
+        letter-spacing: .2em;
+
+        color: $color-primary;
+    }
+
+    figure {
+        margin-top: 65px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+.feature-block__title {
+    font-size: 24px;
+    line-height: 2;
+
+    letter-spacing: .2em;
+
+    span {
+        color: $color-primary;
+    }
+}

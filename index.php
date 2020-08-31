@@ -89,6 +89,64 @@
 					</div>
 				</div>
 			</section>
+			<section class="l-about">
+				<div class="l-container">
+					 <h2 class="section-title">
+						<span class="section-title__ja">プロジェクト概要</span>
+						<span class="section-title__en">About</span>
+					</h2>
+					<div class="l-about__eyecatch u-flex">
+						<div class="l-about__eyecatch-image">
+							<img src="./public/assets/images/i_traveler.png" alt="">
+						</div>
+						<div class="l-about__eyecatch-image">
+							<img src="./public/assets/images/i_doctor.png" alt="">
+						</div>
+					</div>
+					<p class="l-about__description">旅行にいきたい人と応援したい人を繋ぎ、<br>病気を抱えた人が安心して旅行できる環境をつくる。</p>
+					<div class="l-about__features">
+						<span class="l-about__features-en">Features</span>
+						<h3 class="l-about__features-title">
+							<div class="l-about__features-dots">
+								<div></div><div></div><div></div>
+							</div>
+							<span>「旅叶プロジェクト」</span>の特徴
+						</h3>
+						<ul class="l-about__features-list u-flex">
+							<li>
+								<div class="feature-block">
+									<h4 class="feature-block__title">
+										<span>「旅行医療チーム」</span>で、<br>旅行中の医療環境を整えます
+									</h4>
+									<figure>
+										<img src="./public/assets/images/feature-1.png" alt="">
+									</figure>
+								</div>
+							</li>
+							<li>
+								<div class="feature-block">
+									<h4 class="feature-block__title">
+										<span>旅行関連会社と連携</span>し、<br>安全な旅行環境を整えます
+									</h4>
+									<figure>
+										<img src="./public/assets/images/feature-2.png" alt="">
+									</figure>
+								</div>
+							</li>
+							<li>
+								<div class="feature-block">
+									<h4 class="feature-block__title">
+										<span>医師が同行</span>し、<br>旅行中の安全・安心を守ります
+									</h4>
+									<figure>
+										<img src="./public/assets/images/feature-3.png" alt="">
+									</figure>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>
