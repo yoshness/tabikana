@@ -17,17 +17,21 @@
 }
 
 .hero__title {
+    font-family: $font-asago;
     font-size: 94px;
+    font-weight: normal;
 
     margin-right: -1.25em;
 
     letter-spacing: 1.25em;
 
     &:before {
+        font-family: $font-asago;
         font-size: 19px;
+        line-height: 1.7;
 
         position: absolute;
-        top: 22%;
+        top: 18%;
         left: 52%;
 
         width: 80px;
@@ -42,7 +46,9 @@
     font-family: 'Allura', cursive;
     font-size: 63px;
 
-    margin-top: -40px;
+    margin-top: -20px;
+
+    letter-spacing: .07em;
 
     color: $color-primary;
 }

@@ -147,6 +147,126 @@
 					</div>
 				</div>
 			</section>
+			<section class="l-members">
+				<div class="l-members-bg"></div>
+				<div class="l-container">
+					 <h2 class="section-title">
+						<span class="section-title__ja">メンバーの想い</span>
+						<span class="section-title__en">Member</span>
+					</h2>
+					<div class="divider divider--primary">
+						<h3 class="divider__title">運営チーム</h3>
+					</div>
+					<ul class="l-members__list u-flex">
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-1.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<h4 class="member-block__name">伊藤 玲哉</h4>
+								<p class="member-block__role">プロジェクト代表</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-2.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<h4 class="member-block__name">横山 大周</h4>
+								<p class="member-block__role">マネジメント</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-3.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<h4 class="member-block__name">田中 大敦</h4>
+								<p class="member-block__role">ページ構成サポート</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+					</ul>
+					<div class="divider divider--secondary">
+						<h3 class="divider__title">医療チーム</h3>
+					</div>
+					<ul class="l-members__list u-flex">
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-1.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<p class="member-block__tag">医師</p>
+								<h4 class="member-block__name">伊藤 玲哉</h4>
+								<p class="member-block__role">トラベルドクター/旅行医</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-4.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<p class="member-block__tag">介護士</p>
+								<h4 class="member-block__name">加藤 信一</h4>
+								<p class="member-block__role">ドリームケアサービス株式会社 代表</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-5.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<p class="member-block__tag">看護師</p>
+								<h4 class="member-block__name">前田 和哉</h4>
+								<p class="member-block__role">株式会社ハレ 代表</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-6.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<p class="member-block__tag">介護タクシー</p>
+								<h4 class="member-block__name">伊藤 玲哉</h4>
+								<p class="member-block__role">かご屋 代表</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-7.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<p class="member-block__tag">リハビリ</p>
+								<h4 class="member-block__name">加藤 信一</h4>
+								<p class="member-block__role">リハビリ推進センター</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+						<li class="l-members__item">
+							<div class="member-block">
+								<img class="member-block__image" src="./public/assets/images/member-8.jpg" alt="">
+								<a class="member-block__view" href="#">View</a>
+								<p class="member-block__tag">旅行会社</p>
+								<h4 class="member-block__name">前田 和哉</h4>
+								<p class="member-block__role">株式会社秋吉「夢たび」 代表</p>
+								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							</div>
+						</li>
+					</ul>
+					<div class="l-members__map map">
+						<div class="map__border map__border--horizontal"></div>
+						<div class="map__border map__border--vertical"></div>
+						<div class="map__inner u-flex">
+							<div class="map__details">
+								<img class="map__people" src="./public/assets/images/connected-people.png" alt="">
+								<p class="map__description">プロジェクトに協力いただける</p>
+								<p class="map__description">医師の人数</p>
+								<p class="map__note">(2020年8月27日現在)</p>
+								<p class="map__number">524<span>人</span></p>
+							</div>
+							<img class="map__image" src="./public/assets/images/map-japan.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>
