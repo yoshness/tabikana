@@ -11,14 +11,18 @@
 	@import 'modules/section-title';
 	@import 'modules/intro';
 	@import 'modules/why';
-	@import 'modules/feature-block';
+	@import 'modules/feature';
 	@import 'modules/divider';
-	@import 'modules/member-block';
+	@import 'modules/member';
 	@import 'modules/map';
+	@import 'modules/sponsor';
+	@import 'modules/flow';
 
 	@import 'layout/l-container';
 	@import 'layout/l-intro';
 	@import 'layout/l-overview';
 	@import 'layout/l-about';
 	@import 'layout/l-members';
+	@import 'layout/l-sponsors';
+	@import 'layout/l-flow';
 }

@@ -51,6 +51,18 @@
             border-color: #52abe6;
         }
     }
+    &.divider--full {
+        &:before,
+        &:after {
+            left: -80%;
+
+            width: 80%;
+        }
+        &:after {
+            right: -80%;
+            left: auto;
+        }
+    }
 }
 
 .divider__title {

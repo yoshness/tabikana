@@ -1,0 +1,250 @@
+.flow {
+    position: relative;
+
+    border: 1px solid $color-primary;
+    border-radius: 15px;
+
+    &.flow--doctor {
+        margin-top: 100px;
+
+        .flow__details {
+            img {
+                width: 28px;
+            }
+        }
+
+        .flow__list {
+            position: relative;
+            left: -80px;
+
+            justify-content: flex-end;
+
+            li {
+                min-width: 180px;
+                margin-right: 55px;
+
+                &:nth-child(3) {
+                    margin-right: 0;
+                }
+                &:nth-child(4) {
+                    order: 5;
+                }
+                &:nth-child(5) {
+                    margin-right: 55px;
+
+                    order: 4;
+                }
+            }
+        }
+    }
+}
+
+.flow__diagram {
+    position: absolute;
+    top: 130px;
+    left: 80px;
+
+    width: 936px;
+    height: 262px;
+}
+
+.flow__details {
+    width: 13%;
+    margin-top: -150px;
+    padding-left: 35px;
+
+    text-align: center;
+
+    img {
+        position: relative;
+
+        width: 40px;
+        height: 95px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+}
+
+.flow__speech {
+    position: relative;
+
+    margin-bottom: 40px;
+
+    &:before,
+    &:after {
+        position: absolute;
+        top: 0;
+        left: -10px;
+
+        display: block;
+
+        width: 10px;
+        height: 100%;
+
+        content: '';
+
+        background-color: #fff;
+    }
+    &:after {
+        right: -10px;
+        left: auto;
+    }
+
+    span {
+        font-size: 18px;
+        font-weight: bold;
+
+        position: relative;
+
+        display: block;
+
+        padding: 30px 0;
+
+        color: #fff;
+    }
+}
+
+.flow__speech-bg {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url(#{$path-image}/overview-bg.jpg);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover;
+
+    filter: grayscale(1) brightness(.65);
+
+    &:after {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+
+        display: inline-block;
+
+        width: 0;
+        height: 0;
+
+        content: '';
+        transform: translateX(-50%);
+
+        border-width: 12px 6px 0 6px;
+        border-style: solid;
+        border-color: #898a8a transparent transparent transparent;
+
+        filter: brightness(1.5);
+    }
+}
+
+.flow__label {
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-left: 20px;
+
+    letter-spacing: .2em;
+}
+
+.flow__number {
+    font-family: $font-crimson;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+
+    position: relative;
+    top: 55px;
+
+    letter-spacing: .2em;
+
+    color: $color-primary;
+
+    span {
+        font-size: 58px;
+
+        display: block;
+    }
+}
+
+.flow__list {
+    width: 80%;
+    padding: 70px 0 40px;
+
+    list-style-type: none;
+
+    counter-reset: flow;
+
+    justify-content: initial;
+
+    li {
+        font-weight: bold;
+
+        position: relative;
+
+        display: flex;
+
+        min-width: 85px;
+        height: 90px;
+        margin-right: 35px;
+        margin-bottom: 90px;
+        padding: 0 20px;
+
+        text-align: center;
+
+        border-radius: 15px;
+        background-image: url(#{$path-image}/overview-bg.jpg);
+        background-repeat: repeat-y;
+        background-position: center center;
+        background-size: cover;
+
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &:nth-child(5) {
+            margin-right: 0;
+        }
+        &:nth-child(6) {
+            margin-right: 0;
+
+            order: 10;
+        }
+        &:nth-child(7) {
+            order: 9;
+        }
+        &:nth-child(8) {
+            order: 8;
+        }
+        &:nth-child(9) {
+            order: 7;
+        }
+        &:nth-child(10) {
+            order: 6;
+        }
+
+        &:before {
+            font-family: $font-crimson;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 1.4;
+
+            position: absolute;
+            top: -15px;
+            left: -15px;
+
+            width: 30px;
+            height: 30px;
+
+            content: counter(flow) '.';
+            counter-increment: flow;
+            text-align: center;
+
+            color: #000;
+            border: 5px solid $color-primary;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+    }
+}

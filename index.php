@@ -114,8 +114,8 @@
 						</h3>
 						<ul class="l-about__features-list u-flex">
 							<li>
-								<div class="feature-block">
-									<h4 class="feature-block__title">
+								<div class="feature">
+									<h4 class="feature__title">
 										<span>「旅行医療チーム」</span>で、<br>旅行中の医療環境を整えます
 									</h4>
 									<figure>
@@ -124,8 +124,8 @@
 								</div>
 							</li>
 							<li>
-								<div class="feature-block">
-									<h4 class="feature-block__title">
+								<div class="feature">
+									<h4 class="feature__title">
 										<span>旅行関連会社と連携</span>し、<br>安全な旅行環境を整えます
 									</h4>
 									<figure>
@@ -134,8 +134,8 @@
 								</div>
 							</li>
 							<li>
-								<div class="feature-block">
-									<h4 class="feature-block__title">
+								<div class="feature">
+									<h4 class="feature__title">
 										<span>医師が同行</span>し、<br>旅行中の安全・安心を守ります
 									</h4>
 									<figure>
@@ -159,30 +159,30 @@
 					</div>
 					<ul class="l-members__list u-flex">
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-1.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<h4 class="member-block__name">伊藤 玲哉</h4>
-								<p class="member-block__role">プロジェクト代表</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<h4 class="member__name">伊藤 玲哉</h4>
+								<p class="member__role">プロジェクト代表</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-2.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<h4 class="member-block__name">横山 大周</h4>
-								<p class="member-block__role">マネジメント</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-2.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<h4 class="member__name">横山 大周</h4>
+								<p class="member__role">マネジメント</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-3.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<h4 class="member-block__name">田中 大敦</h4>
-								<p class="member-block__role">ページ構成サポート</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-3.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<h4 class="member__name">田中 大敦</h4>
+								<p class="member__role">ページ構成サポート</p>
+								<p class="member__description">簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 					</ul>
@@ -191,63 +191,63 @@
 					</div>
 					<ul class="l-members__list u-flex">
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-1.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<p class="member-block__tag">医師</p>
-								<h4 class="member-block__name">伊藤 玲哉</h4>
-								<p class="member-block__role">トラベルドクター/旅行医</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<p class="member__tag">医師</p>
+								<h4 class="member__name">伊藤 玲哉</h4>
+								<p class="member__role">トラベルドクター/旅行医</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-4.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<p class="member-block__tag">介護士</p>
-								<h4 class="member-block__name">加藤 信一</h4>
-								<p class="member-block__role">ドリームケアサービス株式会社 代表</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-4.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<p class="member__tag">介護士</p>
+								<h4 class="member__name">加藤 信一</h4>
+								<p class="member__role">ドリームケアサービス株式会社 代表</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-5.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<p class="member-block__tag">看護師</p>
-								<h4 class="member-block__name">前田 和哉</h4>
-								<p class="member-block__role">株式会社ハレ 代表</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-5.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<p class="member__tag">看護師</p>
+								<h4 class="member__name">前田 和哉</h4>
+								<p class="member__role">株式会社ハレ 代表</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-6.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<p class="member-block__tag">介護タクシー</p>
-								<h4 class="member-block__name">伊藤 玲哉</h4>
-								<p class="member-block__role">かご屋 代表</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-6.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<p class="member__tag">介護タクシー</p>
+								<h4 class="member__name">伊藤 玲哉</h4>
+								<p class="member__role">かご屋 代表</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-7.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<p class="member-block__tag">リハビリ</p>
-								<h4 class="member-block__name">加藤 信一</h4>
-								<p class="member-block__role">リハビリ推進センター</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-7.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<p class="member__tag">リハビリ</p>
+								<h4 class="member__name">加藤 信一</h4>
+								<p class="member__role">リハビリ推進センター</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member-block">
-								<img class="member-block__image" src="./public/assets/images/member-8.jpg" alt="">
-								<a class="member-block__view" href="#">View</a>
-								<p class="member-block__tag">旅行会社</p>
-								<h4 class="member-block__name">前田 和哉</h4>
-								<p class="member-block__role">株式会社秋吉「夢たび」 代表</p>
-								<p class="member-block__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+							<div class="member">
+								<img class="member__image" src="./public/assets/images/member-8.jpg" alt="">
+								<a class="member__view" href="#">View</a>
+								<p class="member__tag">旅行会社</p>
+								<h4 class="member__name">前田 和哉</h4>
+								<p class="member__role">株式会社秋吉「夢たび」 代表</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 					</ul>
@@ -263,6 +263,124 @@
 								<p class="map__number">524<span>人</span></p>
 							</div>
 							<img class="map__image" src="./public/assets/images/map-japan.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<aside class="l-sponsors">
+				<div class="l-container">
+					<div class="l-sponsors__content">
+						<h2 class="l-sponsors__title">協賛企業</h2>
+						<ul class="l-sponsors__list u-flex">
+							<li class="l-sponsors__item">
+								<div class="sponsor">
+									<img src="./public/assets/images/sponsor-1.png" alt="">
+									<div class="sponsor__name">担当 / 白鳥 央</div>
+									<a class="sponsor__view" href="#">View</a>
+								</div>
+							</li>
+							<li class="l-sponsors__item">
+								<div class="sponsor">
+									<img src="./public/assets/images/sponsor-2.png" alt="">
+									<div class="sponsor__name">担当 / 村田 栄蔵</div>
+									<a class="sponsor__view" href="#">View</a>
+								</div>
+							</li>
+							<li class="l-sponsors__item">
+								<div class="sponsor">
+									<img src="./public/assets/images/sponsor-3.png" alt="">
+									<div class="sponsor__name">担当 / 村田 栄蔵</div>
+									<a class="sponsor__view" href="#">View</a>
+								</div>
+							</li>
+							<li class="l-sponsors__item">
+								<div class="sponsor">
+									<img src="./public/assets/images/sponsor-4.png" alt="">
+									<div class="sponsor__name">担当 / 白鳥 央</div>
+									<a class="sponsor__view" href="#">View</a>
+								</div>
+							</li>
+						</ul>
+						<p class="l-sponsors__note">※法人格を除く社名50音順</p>
+						<a class="l-sponsors__link" href="#">法人ご担当者様や報道関係の方はこちらから</a>
+					</div>
+				</div>
+			</aside>
+			<section class="l-flow">
+				<div class="l-container">
+					 <h2 class="section-title">
+						<span class="section-title__ja">プロジェクトの流れ</span>
+						<span class="section-title__en">Flow</span>
+					</h2>
+					<div class="l-flow__diagram u-flex">
+						<div class="l-flow__diagram-step">
+							<span>Step.1</span>
+							<div class="l-flow__diagram-image u-flex">
+								<img src="./public/assets/images/step-1.png" alt="">	
+							</div>
+							<p>クラウド<br>ファンディング</p>
+						</div>
+						<div class="l-flow__diagram-step">
+							<span>Step.2</span>
+							<div class="l-flow__diagram-image u-flex">
+								<img src="./public/assets/images/step-2.png" alt="">	
+							</div>
+							<p>旅行者募集</p>
+						</div>
+						<div class="l-flow__diagram-step">
+							<span>Step.3</span>
+							<div class="l-flow__diagram-image u-flex">
+								<img src="./public/assets/images/step-3.png" alt="">	
+							</div>
+							<p>旅行の準備〜実現</p>
+						</div>
+					</div>
+					<div class="divider divider--primary divider--full">
+						<h3 class="divider__title">運営チーム</h3>
+					</div>
+					<div class="l-flow__content">
+						<div class="flow u-flex">
+							<img src="./public/assets/images/flow-bg-1.png" alt="" class="flow__diagram">
+							<div class="flow__details">
+								<div class="flow__speech">
+									<div class="flow__speech-bg"></div>
+									<span>行きたい</span>
+								</div>
+								<img src="./public/assets/images/i_traveler.png" alt="">
+								<p class="flow__label">旅行者</p>
+								<p class="flow__number"><span>10</span>Step</p>
+							</div>
+							<ul class="flow__list u-flex">
+								<li>応募</li>
+								<li>書類選考</li>
+								<li>ヒアリング</li>
+								<li>チーム<br>カンファレンス</li>
+								<li>契約</li>
+								<li>旅行前<br>診察</li>
+								<li>旅行詳細</li>
+								<li>現地下見</li>
+								<li>旅行実行</li>
+								<li>旅行終了</li>
+							</ul>
+						</div>
+						<div class="flow flow--doctor u-flex">
+							<img src="./public/assets/images/flow-bg-2.png" alt="" class="flow__diagram">
+							<div class="flow__details">
+								<div class="flow__speech">
+									<div class="flow__speech-bg"></div>
+									<span>応援したい</span>
+								</div>
+								<img src="./public/assets/images/i_doctor.png" alt="">
+								<p class="flow__label">現地の<br>医療従事者</p>
+								<p class="flow__number"><span>05</span>Step</p>
+							</div>
+							<ul class="flow__list u-flex">
+								<li>ご登録</li>
+								<li>旅行医から相談</li>
+								<li>ご承諾</li>
+								<li>医療情報の共有</li>
+								<li>旅行中の医療連携</li>
+							</ul>
 						</div>
 					</div>
 				</div>
