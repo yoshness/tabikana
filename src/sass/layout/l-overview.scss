@@ -41,4 +41,35 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+
+    &:before {
+        position: absolute;
+        bottom: -70px;
+        left: 50%;
+
+        display: block;
+
+        width: 1px;
+        height: 100px;
+
+        content: '';
+        transform: translateX(-50%);
+
+        background-color: #fff;
+    }
+
+    &:after {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+
+        width: 9px;
+        height: 9px;
+
+        content: '';
+        transform: translateX(-50%);
+
+        border-radius: 50%;
+        background-color: #fff;
+    }
 }

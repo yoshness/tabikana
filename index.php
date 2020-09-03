@@ -105,7 +105,6 @@
 					</div>
 					<p class="l-about__description">旅行にいきたい人と応援したい人を繋ぎ、<br>病気を抱えた人が安心して旅行できる環境をつくる。</p>
 					<div class="l-about__features">
-						<span class="l-about__features-en">Features</span>
 						<h3 class="l-about__features-title">
 							<div class="l-about__features-dots">
 								<div></div><div></div><div></div>
@@ -161,92 +160,92 @@
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">プロジェクト代表</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-2.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<h4 class="member__name">横山 大周</h4>
 								<p class="member__role">マネジメント</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-3.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<h4 class="member__name">田中 大敦</h4>
 								<p class="member__role">ページ構成サポート</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 					</ul>
-					<div class="divider divider--secondary">
+					<div class="divider divider--primary">
 						<h3 class="divider__title">医療チーム</h3>
 					</div>
 					<ul class="l-members__list u-flex">
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<p class="member__tag">医師</p>
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">トラベルドクター/旅行医</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-4.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<p class="member__tag">介護士</p>
 								<h4 class="member__name">加藤 信一</h4>
 								<p class="member__role">ドリームケアサービス株式会社 代表</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-5.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<p class="member__tag">看護師</p>
 								<h4 class="member__name">前田 和哉</h4>
 								<p class="member__role">株式会社ハレ 代表</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-6.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<p class="member__tag">介護タクシー</p>
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">かご屋 代表</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-7.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<p class="member__tag">リハビリ</p>
 								<h4 class="member__name">加藤 信一</h4>
 								<p class="member__role">リハビリ推進センター</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-8.jpg" alt="">
-								<a class="member__view" href="#">View</a>
 								<p class="member__tag">旅行会社</p>
 								<h4 class="member__name">前田 和哉</h4>
 								<p class="member__role">株式会社秋吉「夢たび」 代表</p>
+								<a class="member__view" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -271,37 +270,30 @@
 				<div class="l-container">
 					<div class="l-sponsors__content">
 						<h2 class="l-sponsors__title">協賛企業</h2>
+						<p class="l-sponsors__note">※法人格を除く社名50音順</p>
 						<ul class="l-sponsors__list u-flex">
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-1.png" alt="">
 									<div class="sponsor__name">担当 / 白鳥 央</div>
-									<a class="sponsor__view" href="#">View</a>
+									<a class="sponsor__view" href="#">More</a>
 								</div>
 							</li>
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-2.png" alt="">
 									<div class="sponsor__name">担当 / 村田 栄蔵</div>
-									<a class="sponsor__view" href="#">View</a>
+									<a class="sponsor__view" href="#">More</a>
 								</div>
 							</li>
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-3.png" alt="">
 									<div class="sponsor__name">担当 / 村田 栄蔵</div>
-									<a class="sponsor__view" href="#">View</a>
-								</div>
-							</li>
-							<li class="l-sponsors__item">
-								<div class="sponsor">
-									<img src="./public/assets/images/sponsor-4.png" alt="">
-									<div class="sponsor__name">担当 / 白鳥 央</div>
-									<a class="sponsor__view" href="#">View</a>
+									<a class="sponsor__view" href="#">More</a>
 								</div>
 							</li>
 						</ul>
-						<p class="l-sponsors__note">※法人格を除く社名50音順</p>
 						<a class="l-sponsors__link" href="#">法人ご担当者様や報道関係の方はこちらから</a>
 					</div>
 				</div>

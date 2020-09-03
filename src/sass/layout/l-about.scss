@@ -1,5 +1,5 @@
 .l-about {
-    height: 2050px;
+    height: 2020px;
     padding: 125px 0 0;
 
     text-align: center;
@@ -67,14 +67,14 @@
 .l-about__description {
     font-size: 22px;
     font-weight: bold;
-    line-height: 2;
+    line-height: 2.5;
 
     letter-spacing: .2em;
 }
 .l-about__features {
     position: relative;
 
-    margin-top: -100px;
+    margin-top: -160px;
 }
 .l-about__features-en {
     font-family: $font-crimson;
@@ -108,7 +108,7 @@
     font-size: 32px;
 
     position: absolute;
-    top: 450px;
+    top: 350px;
     left: -15px;
 
     letter-spacing: .2em;
@@ -163,7 +163,7 @@
             margin-top: 700px;
         }
         &:nth-of-type(3) {
-            margin-top: -250px;
+            margin-top: -230px;
         }
     }
 }
