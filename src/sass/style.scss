@@ -17,6 +17,7 @@
 	@import 'modules/map';
 	@import 'modules/sponsor';
 	@import 'modules/flow';
+	@import 'modules/requirement';
 
 	@import 'layout/l-container';
 	@import 'layout/l-intro';
@@ -25,4 +26,6 @@
 	@import 'layout/l-members';
 	@import 'layout/l-sponsors';
 	@import 'layout/l-flow';
+	@import 'layout/l-requirements';
+	@import 'layout/l-message';
 }

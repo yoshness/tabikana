@@ -377,6 +377,81 @@
 					</div>
 				</div>
 			</section>
+			<section class="l-requirements">
+				<div class="l-requirements__bg"></div>
+				<div class="l-container">
+					 <h2 class="section-title">
+						<span class="section-title__ja">募集要項</span>
+					</h2>
+					<div class="l-requirements__content u-flex">
+						<div class="requirement">
+							<div class="requirement__bg"></div>
+							<div class="requirement__top u-flex">
+								<img src="./public/assets/images/i_traveler.png" alt="">
+								<h3 class="requirement__title">行きたい</h3>
+								<span class="requirement__tag">旅行者</span>
+							</div>
+							<ul class="requirement__list">
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目1</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+								</li>
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目2</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。</p>
+								</li>
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目3</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+								</li>
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目4</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+								</li>
+							</ul>
+						</div>
+						<div class="requirement">
+							<div class="requirement__bg"></div>
+							<div class="requirement__top u-flex">
+								<img src="./public/assets/images/i_doctor.png" alt="">
+								<h3 class="requirement__title">協力したい</h3>
+								<span class="requirement__tag">医療従事者</span>
+							</div>
+							<ul class="requirement__list">
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目1</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+								</li>
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目2</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。</p>
+								</li>
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目3</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+								</li>
+								<li class="requirement__item">
+									<h4 class="requirement__item-title">項目4</h4>
+									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="l-message">
+				<div class="l-container">
+					 <h2 class="section-title">
+						<span class="section-title__ja">さいごに</span>
+					</h2>
+					<div class="l-message__content">
+						<h3>旅行へ行きたい<br>いまを生きたい</h3>
+						<p>患者さんの「旅行に行きたい」という言葉には、<br>「今を生きたい」という願いが込められていると思います。</p>
+						<p><strong>すべての人が安心して安全に旅行ができる環境づくりを</strong></p>
+						<p>医師人生をかけてこのプロジェクトを実現します。<br>その第一歩としての今回のプロジェクトに、ぜひご支援をよろしくお願い申し上げます。</p>
+					</div>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>

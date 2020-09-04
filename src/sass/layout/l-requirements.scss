@@ -1,0 +1,30 @@
+.l-requirements {
+    position: relative;
+
+    padding-bottom: 175px;
+
+    .section-title {
+        position: relative;
+        top: -40px;
+    }
+}
+
+.l-requirements__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url(#{$path-image}/overview-bg.jpg);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: contain;
+
+    filter: saturate(180%) hue-rotate(-15deg);
+}
+
+.l-requirements__content {
+    margin-top: 100px;
+}

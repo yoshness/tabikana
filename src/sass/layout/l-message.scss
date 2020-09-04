@@ -1,0 +1,34 @@
+.l-message {
+    padding-bottom: 140px;
+
+    text-align: center;
+
+    background-image: url(#{$path-image}/message-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    .section-title {
+        position: relative;
+        top: -40px;
+    }
+}
+.l-message__content {
+    margin-top: 100px;
+
+    h3 {
+        font-size: 42px;
+        line-height: 1.8;
+
+        margin-bottom: 90px;
+
+        letter-spacing: .3em;
+    }
+    p {
+        line-height: 2.5;
+
+        margin-bottom: 30px;
+
+        letter-spacing: .2em;
+    }
+}
