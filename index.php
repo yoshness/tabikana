@@ -14,12 +14,12 @@
 	</head>
 
 	<body>
-		<header class="header">
+		<header class="header" id="js-header">
 			<a class="header__logo" href="#">
 				<img src="./public/assets/images/logo.png" alt="">
 			</a>
 		</header>
-		<main>
+		<main id="js-main">
 			<div class="hero">
 				<div class="hero__content">
 					<h1 class="hero__title">旅叶</h1>
@@ -162,7 +162,7 @@
 								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">プロジェクト代表</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#" data-index="0">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -171,7 +171,7 @@
 								<img class="member__image" src="./public/assets/images/member-2.jpg" alt="">
 								<h4 class="member__name">横山 大周</h4>
 								<p class="member__role">マネジメント</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#" data-index="1">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -180,7 +180,7 @@
 								<img class="member__image" src="./public/assets/images/member-3.jpg" alt="">
 								<h4 class="member__name">田中 大敦</h4>
 								<p class="member__role">ページ構成サポート</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#" data-index="2">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -195,7 +195,7 @@
 								<p class="member__tag">医師</p>
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">トラベルドクター/旅行医</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -205,7 +205,7 @@
 								<p class="member__tag">介護士</p>
 								<h4 class="member__name">加藤 信一</h4>
 								<p class="member__role">ドリームケアサービス株式会社 代表</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -215,7 +215,7 @@
 								<p class="member__tag">看護師</p>
 								<h4 class="member__name">前田 和哉</h4>
 								<p class="member__role">株式会社ハレ 代表</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -225,7 +225,7 @@
 								<p class="member__tag">介護タクシー</p>
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">かご屋 代表</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -235,7 +235,7 @@
 								<p class="member__tag">リハビリ</p>
 								<h4 class="member__name">加藤 信一</h4>
 								<p class="member__role">リハビリ推進センター</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -245,7 +245,7 @@
 								<p class="member__tag">旅行会社</p>
 								<h4 class="member__name">前田 和哉</h4>
 								<p class="member__role">株式会社秋吉「夢たび」 代表</p>
-								<a class="member__view" href="#">More</a>
+								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
@@ -294,7 +294,7 @@
 								</div>
 							</li>
 						</ul>
-						<a class="l-sponsors__link" href="#">法人ご担当者様や報道関係の方はこちらから</a>
+						<a class="l-sponsors__link decorated-link" href="#">法人ご担当者様や報道関係の方はこちらから</a>
 					</div>
 				</div>
 			</aside>
@@ -452,6 +452,60 @@
 					</div>
 				</div>
 			</section>
+			<section class="l-closing">
+				<div class="l-container l-container--wide">
+					<h2 class="l-closing__title">「旅叶」にご協力をお願いします！</h2>
+					<a class="l-closing__link decorated-link decorated-link--bordered" href="#">クラウドファンディングページへ</a>
+
+					<div class="l-closing__list u-flex">
+						<li class="l-closing__item">
+							<div class="closing-block">
+								<div class="closing-block__image">
+									<img src="./public/assets/images/svg/travel.png" alt="">
+								</div>
+								<h3 class="closing-block__title">【 旅行者の方 】</h3>
+								<a class="decorated-link decorated-link--disabled decorated-link--no-shadow" href="#">Coming Soon</a>
+							</div>
+						</li>
+						<li class="l-closing__item">
+							<div class="closing-block">
+								<div class="closing-block__image">
+									<img src="./public/assets/images/svg/doctor.svg" alt="">
+								</div>
+								<h3 class="closing-block__title">【 医療従事者の方 】</h3>
+								<a class="decorated-link decorated-link--no-shadow" href="#">医療従事者として応募する</a>
+							</div>
+						</li>
+						<li class="l-closing__item">
+							<div class="closing-block">
+								<div class="closing-block__image">
+									<img src="./public/assets/images/svg/handshake.png" alt="">
+								</div>
+								<h3 class="closing-block__title">【 お問い合わせ 】</h3>
+								<a class="decorated-link decorated-link--no-shadow" href="#">その他のお問い合わせ</a>
+							</div>
+						</li>
+					</div>
+				</div>
+			</section>
 		</main>
+		<footer class="footer">
+			<a class="footer__logo" href="#">
+				<img src="./public/assets/images/logo.png" alt="">
+			</a>
+			<a class="footer__privacy" href="#">Privacy Policy</a>
+			<small class="footer__copyright">© 2020 TRAVEL DOCTOR All rights reserved.</small>
+		</footer>
+
+		<script src="./public/assets/app.js"></script>
+
+    <div class="loader" id="js-loader">
+    	<div class="loader__inner">
+    		<div class="loader__image">
+    			<div class="loader__progress" id="js-loader-progress"></div>
+    		</div>
+    		<div class="loader__percent" id="js-loader-pct"></div>
+    	</div>
+    </div>
 	</body>
 </html>

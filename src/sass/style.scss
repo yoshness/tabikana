@@ -5,6 +5,7 @@
 
 	@import 'lib/media-queries';
 	@import 'lib/utility';
+	@import '~magnific-popup/dist/magnific-popup.css';
 
 	@import 'modules/hero';
 	@import 'modules/header';
@@ -18,6 +19,11 @@
 	@import 'modules/sponsor';
 	@import 'modules/flow';
 	@import 'modules/requirement';
+	@import 'modules/popup';
+	@import 'modules/decorated-link';
+	@import 'modules/closing-block';
+	@import 'modules/footer';
+	@import 'modules/loader';
 
 	@import 'layout/l-container';
 	@import 'layout/l-intro';
@@ -28,4 +34,5 @@
 	@import 'layout/l-flow';
 	@import 'layout/l-requirements';
 	@import 'layout/l-message';
+	@import 'layout/l-closing';
 }

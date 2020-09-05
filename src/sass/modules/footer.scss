@@ -1,0 +1,36 @@
+.footer {
+    padding: 80px 0;
+
+    text-align: center;
+    letter-spacing: .05em;
+}
+.footer__logo {
+    display: block;
+
+    margin-bottom: 40px;
+
+    img {
+        width: 107px;
+        height: 73px;
+    }
+}
+.footer__privacy {
+    font-size: 13px;
+
+    display: inline-block;
+
+    margin-bottom: 45px;
+
+    transition: color $duration $easing;
+
+    color: $base-font-color;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+.footer__copyright {
+    font-size: 12px;
+
+    display: block;
+}
