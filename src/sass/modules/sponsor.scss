@@ -29,7 +29,7 @@
     display: inline-block;
 
     margin: 45px auto 0;
-    padding: 4px 20px 4px 13px;
+    padding: 5px 20px 2px 13px;
 
     transition: background-color $duration $easing;
     text-align: center;
@@ -51,8 +51,8 @@
 
         display: block;
 
-        width: 5px;
-        height: 5px;
+        width: 7px;
+        height: 7px;
 
         content: '';
         transform: translateY(-50%) rotate(45deg);

@@ -39,16 +39,16 @@
 .member__view {
     font-family: $font-crimson;
     font-size: 14px;
+    font-style: normal;
 
     position: relative;
 
     display: inline-block;
 
     margin: 25px auto 0;
-    padding: 4px 20px 4px 13px;
+    padding: 5px 20px 2px 13px;
 
     transition: background-color $duration $easing;
-    text-align: center;
     text-align: center;
     letter-spacing: .12em;
 
@@ -67,8 +67,8 @@
 
         display: block;
 
-        width: 5px;
-        height: 5px;
+        width: 7px;
+        height: 7px;
 
         content: '';
         transform: translateY(-50%) rotate(45deg);

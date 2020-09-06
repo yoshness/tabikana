@@ -1,38 +1,38 @@
 // Init
-#tabikana-page {
-	@import 'base/base';
-	@import 'base/sanitize';
+@import 'base/base';
+@import 'base/sanitize';
 
-	@import 'lib/media-queries';
-	@import 'lib/utility';
-	@import '~magnific-popup/dist/magnific-popup.css';
+@import 'lib/media-queries';
+@import 'lib/utility';
+@import 'lib/icons';
+@import '~magnific-popup/dist/magnific-popup.css';
 
-	@import 'modules/hero';
-	@import 'modules/header';
-	@import 'modules/section-title';
-	@import 'modules/intro';
-	@import 'modules/why';
-	@import 'modules/feature';
-	@import 'modules/divider';
-	@import 'modules/member';
-	@import 'modules/map';
-	@import 'modules/sponsor';
-	@import 'modules/flow';
-	@import 'modules/requirement';
-	@import 'modules/popup';
-	@import 'modules/decorated-link';
-	@import 'modules/closing-block';
-	@import 'modules/footer';
-	@import 'modules/loader';
+@import 'modules/hero';
+@import 'modules/header';
+@import 'modules/section-title';
+@import 'modules/intro';
+@import 'modules/why';
+@import 'modules/feature';
+@import 'modules/divider';
+@import 'modules/member';
+@import 'modules/map';
+@import 'modules/sponsor';
+@import 'modules/flow';
+@import 'modules/requirement';
+@import 'modules/popup';
+@import 'modules/decorated-link';
+@import 'modules/closing-block';
+@import 'modules/footer';
+@import 'modules/loader';
+@import 'modules/bullet-nav';
 
-	@import 'layout/l-container';
-	@import 'layout/l-intro';
-	@import 'layout/l-overview';
-	@import 'layout/l-about';
-	@import 'layout/l-members';
-	@import 'layout/l-sponsors';
-	@import 'layout/l-flow';
-	@import 'layout/l-requirements';
-	@import 'layout/l-message';
-	@import 'layout/l-closing';
-}
+@import 'layout/l-container';
+@import 'layout/l-intro';
+@import 'layout/l-overview';
+@import 'layout/l-about';
+@import 'layout/l-members';
+@import 'layout/l-sponsors';
+@import 'layout/l-flow';
+@import 'layout/l-requirements';
+@import 'layout/l-message';
+@import 'layout/l-closing';

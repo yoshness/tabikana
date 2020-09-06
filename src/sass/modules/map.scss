@@ -37,11 +37,12 @@
 .map__inner {
     position: relative;
 
-    padding: 60px 90px;
+    padding: 60px 85px;
 }
 
 .map__details {
     width: 480px;
+    margin-top: -50px;
 }
 
 .map__people {
@@ -69,8 +70,9 @@
 }
 
 .map__image {
-    width: 465px;
-    height: 480px;
+    width: 510px;
+    height: 525px;
+    margin-left: -100px;
 }
 
 .map__number {

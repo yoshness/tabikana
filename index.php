@@ -10,24 +10,96 @@
 
 		<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
 
+		<link rel="shortcut icon" type="image/png" href="./public/assets/images/svg/favicon.png"/>
+
 		<title>Tabikana</title>
 	</head>
 
 	<body>
-		<header class="header" id="js-header">
+		<header class="header u-flex" id="js-header">
 			<a class="header__logo" href="#">
 				<img src="./public/assets/images/logo.png" alt="">
 			</a>
+			<ul class="header__list u-flex">
+				<li>
+					<a href="#">
+						<img src="./public/assets/images/svg/travel.png" alt="">
+						<span>旅行者として応募</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./public/assets/images/svg/doctor.svg" alt="">
+						<span>医療従事者として協力</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./public/assets/images/svg/handshake.png" alt="">
+						<span>プロジェクトを支援</span>
+					</a>
+				</li>
+			</ul>
 		</header>
 		<main id="js-main">
+			<div class="bullet-nav js-bullet-nav">
+			<ul class="bullet-nav__list">
+				<li class="bullet-nav__item">
+					<a class="js-bullet-scroll" href="#js-section-intro"><span>はじめに</span></a>
+				</li>
+				<li class="bullet-nav__item">
+					<a class="js-bullet-scroll" href="#js-section-overview"><span>プロジェクトの背景</span></a>
+				</li>
+				<li class="bullet-nav__item">
+					<a class="js-bullet-scroll" href="#js-section-about"><span>プロジェクト概要</span></a>
+				</li>
+				<li class="bullet-nav__item">
+					<a class="js-bullet-scroll" href="#js-section-member"><span>メンバーの想い</span></a>
+				</li>
+				<li class="bullet-nav__item">
+					<a class="js-bullet-scroll" href="#js-section-flow"><span>プロジェクトの流れ</span></a>
+				</li>
+				<li class="bullet-nav__item">
+					<a class="js-bullet-scroll" href="#js-section-requirement"><span>募集要項</span></a>
+				</li>
+				<li class="bullet-nav__item">
+					<a class="js-bullet-scroll" href="#js-section-message"><span>さいごに</span></a>
+				</li>
+			</ul>
+		</div>
 			<div class="hero">
+				<div class="hero__left">
+					<small>© 2020 TRAVEL DOCTOR All rights reserved.</small>
+					<ul class="hero__icons">
+						<li>
+							<a href="http://facebook.com" target="_blank">
+								<i class="icon icon-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://twitter.com" target="_blank">
+								<i class="icon icon-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://instagram.com" target="_blank">
+								<i class="icon icon-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="./public/assets/images/svg/favicon.png" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
 				<div class="hero__content">
 					<h1 class="hero__title">旅叶</h1>
 					<p class="hero__subtitle">project</p>
 					<p class="hero__description">諦めていた"旅行"を叶えるプロジェクト</p>
 				</div>
 			</div>
-			<div class="l-intro">
+			<div class="l-intro js-activate-on-scroll" id="js-section-intro">
 				<div class="l-container">
 					<section class="intro">
 						<h2 class="section-title">
@@ -40,7 +112,7 @@
 					</section>
 				</div>
 			</div>
-			<section class="l-overview">
+			<section class="l-overview js-activate-on-scroll" id="js-section-overview">
 				<div class="l-overview__content">
 					<h2 class="section-title">
 						<span class="section-title__ja">プロジェクトの背景</span>
@@ -89,7 +161,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-about">
+			<section class="l-about js-activate-on-scroll" id="js-section-about">
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">プロジェクト概要</span>
@@ -146,7 +218,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-members">
+			<section class="l-members js-activate-on-scroll" id="js-section-member">
 				<div class="l-members-bg"></div>
 				<div class="l-container">
 					 <h2 class="section-title">
@@ -163,7 +235,7 @@
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">プロジェクト代表</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="0">More</a>
-								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。</p>
+								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
@@ -298,7 +370,7 @@
 					</div>
 				</div>
 			</aside>
-			<section class="l-flow">
+			<section class="l-flow js-activate-on-scroll" id="js-section-flow">
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">プロジェクトの流れ</span>
@@ -377,7 +449,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-requirements">
+			<section class="l-requirements js-activate-on-scroll" id="js-section-requirement">
 				<div class="l-requirements__bg"></div>
 				<div class="l-container">
 					 <h2 class="section-title">
@@ -439,7 +511,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-message">
+			<section class="l-message js-activate-on-scroll" id="js-section-message">
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">さいごに</span>
@@ -453,7 +525,7 @@
 				</div>
 			</section>
 			<section class="l-closing">
-				<div class="l-container l-container--wide">
+				<div class="l-container l-container--closing">
 					<h2 class="l-closing__title">「旅叶」にご協力をお願いします！</h2>
 					<a class="l-closing__link decorated-link decorated-link--bordered" href="#">クラウドファンディングページへ</a>
 

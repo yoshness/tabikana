@@ -42,14 +42,14 @@
 .flow__diagram {
     position: absolute;
     top: 130px;
-    left: 80px;
+    left: 45px;
 
     width: 936px;
     height: 262px;
 }
 
 .flow__details {
-    width: 13%;
+    width: 17%;
     margin-top: -150px;
     padding-left: 35px;
 
@@ -61,7 +61,7 @@
         width: 40px;
         height: 95px;
         margin-bottom: 30px;
-        margin-left: 10px;
+        margin-left: -20px;
     }
 }
 
@@ -140,8 +140,6 @@
     font-size: 18px;
     font-weight: bold;
 
-    margin-left: 20px;
-
     letter-spacing: .2em;
 }
 
@@ -162,6 +160,8 @@
         font-size: 58px;
 
         display: block;
+
+        margin-bottom: -20px;
     }
 }
 
@@ -186,7 +186,7 @@
         height: 90px;
         margin-right: 35px;
         margin-bottom: 90px;
-        padding: 0 20px;
+        padding: 0 30px;
 
         text-align: center;
 
@@ -232,8 +232,8 @@
             top: -15px;
             left: -15px;
 
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
 
             content: counter(flow) '.';
             counter-increment: flow;
