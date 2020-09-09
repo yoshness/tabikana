@@ -5,4 +5,9 @@
     background-repeat: repeat-y;
     background-position: center 30%;
     background-size: cover;
+
+    @include max-screen($breakpoint-mobile) {
+        padding-top: 0;
+        padding-bottom: 350px;
+    }
 }

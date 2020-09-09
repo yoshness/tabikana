@@ -9,6 +9,12 @@
 
     border-radius: 50px;
 
+    @include max-screen($breakpoint-mobile) {
+        width: 60%;
+        margin: 60px auto;
+        padding: 10px 0 8px;
+    }
+
     &:before,
     &:after {
         position: absolute;
@@ -24,10 +30,20 @@
 
         border-width: 1px;
         border-style: solid;
+
+        @include max-screen($breakpoint-mobile) {
+            left: -53px;
+
+            width: 53px;
+        }
     }
     &:after {
         right: -260px;
         left: auto;
+
+        @include max-screen($breakpoint-mobile) {
+            right: -53px;
+        }
     }
 
     // MODIFIERS
@@ -71,4 +87,8 @@
     letter-spacing: .2em;
 
     color: #fff;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 15px;
+    }
 }

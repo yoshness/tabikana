@@ -9,6 +9,10 @@
     background-color: #fff;
     box-shadow: 0 20px 40px 5px #f7f2eb;
 
+    @include max-screen($breakpoint-mobile) {
+        padding: 40px 20px;
+    }
+
     &:before {
         font-family: $font-crimson;
         font-size: 60px;
@@ -24,6 +28,12 @@
         letter-spacing: .2em;
 
         color: $color-primary;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 40px;
+
+            top: -25px;
+        }
     }
     &:after {
         font-family: $font-crimson;
@@ -43,6 +53,10 @@
         letter-spacing: .2em;
 
         color: $color-primary;
+
+        @include max-screen($breakpoint-mobile) {
+            display: none;
+        }
     }
 
     figure {
@@ -58,6 +72,10 @@
     line-height: 2;
 
     letter-spacing: .15em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 16px;
+    }
 
     span {
         color: $color-primary;

@@ -7,6 +7,15 @@
     border-radius: 20px;
     background-color: #fff;
     box-shadow: 0 25px 50px 0 #f6e9dc;
+
+    @include max-screen($breakpoint-mobile) {
+        margin: 0 15px;
+        padding: 20px;
+
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
 }
 
 .intro__description {
@@ -16,4 +25,13 @@
 
     text-align: center;
     letter-spacing: .1em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 14px;
+
+        margin-top: 50px;
+
+        text-align: left;
+        letter-spacing: 0;
+    }
 }

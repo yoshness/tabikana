@@ -18,7 +18,8 @@
 	<body>
 		<header class="header u-flex" id="js-header">
 			<a class="header__logo" href="#">
-				<img src="./public/assets/images/svg/logo.svg" alt="">
+				<img class="u-show-pc" src="./public/assets/images/svg/logo.svg" alt="">
+				<img class="u-show-sp" src="./public/assets/images/svg/logo-horizontal.svg" alt="">
 			</a>
 			<ul class="header__list u-flex">
 				<li>
@@ -104,10 +105,10 @@
 					<section class="intro">
 						<h2 class="section-title">
 							<span class="section-title__ja">はじめに</span>
-							<span class="section-title__en">First</span>
 						</h2>
 						<p class="intro__description">
-							今般の新型コロナウイルスの感染によりお亡くなりになられた方、<br>ご遺族の方々には心からお悔やみを申し上げます。<br>そして、現在も闘病中の患者さん、ご対応にあたっている関係者すべての皆様に<br>心よりお見舞いを申し上げます。<br><br>こんな大変な時だからこそ、これからの“医療”について提案させてください。<br>コロナ後に向けて。
+							今般の新型コロナウイルスの感染によりお亡くなりになられた方、<br class="u-show-pc">ご遺族の方々には心からお悔やみを申し上げます。<br>そして、現在も闘病中の患者さん、ご対応にあたっている関係者すべての皆様に<br>心よりお見舞いを申し上げます。<br><br>
+							こんな大変な時だからこそ、これからの“医療”について提案させてください。<br class="u-show-pc">コロナ後に向けて、私たちが今できること。
 						</p>
 					</section>
 				</div>
@@ -116,12 +117,11 @@
 				<div class="l-overview__content">
 					<h2 class="section-title">
 						<span class="section-title__ja">プロジェクトの背景</span>
-						<span class="section-title__en">Background</span>
 					</h2>
-					<img class="l-overview__eyecatch" src="./public/assets/images/overview.jpg" alt="">
+					<div class="l-overview__eyecatch"></div>
 					<div class="l-container">
 						<p class="l-overview__description">
-							年間140万人が亡くなる中、約100万人が “病室のベッド” で最期を迎えています。<br>つまり、あなたが最期にみる景色は、75%の確率で “病室の天井” になるかもしれません。<br><br>新型コロナウィルスにより、多くの人が “旅行へ行けない” 苦しみを経験しました。<br>しかし、コロナが流行するずっと前から、持病で旅行を諦めている人がたくさんいます。
+							年間140万人が亡くなる中、約100万人が “病室のベッド” で最期を迎えています。<br>つまり、あなたが最期にみる景色は、75%の確率で “病室の天井” になるかもしれません。<br><br>新型コロナウィルスにより、多くの人が “旅行へ行けない” 苦しみを経験しました。<br class="u-show-pc">しかし、コロナが流行するずっと前から、持病で旅行を諦めている人がたくさんいます。
 						</p>
 						<div class="why">
 							<p class="why__subtitle">解決したい課題</p>
@@ -151,10 +151,10 @@
 									</h4>
 									<p>誰に相談すればいいのだろう…</p>
 									<p>業務が忙しくて時間がない…</p>
-									<p>もし旅行中に何かあったらどうしよう…</p>
+									<p>もし旅行中に<br class="u-show-sp">何かあったらどうしよう…</p>
 								</div>
 								<div class="why__note">
-									どちらも“医療面”の不安を抱えています
+									どちらも“医療面”の不安を<br class="u-show-sp">抱えています
 								</div>
 							</div>
 						</div>
@@ -165,7 +165,6 @@
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">プロジェクト概要</span>
-						<span class="section-title__en">About</span>
 					</h2>
 					<div class="l-about__eyecatch u-flex">
 						<div class="l-about__eyecatch-image">
@@ -223,44 +222,49 @@
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">メンバーの想い</span>
-						<span class="section-title__en">Member</span>
 					</h2>
 					<div class="divider divider--primary">
 						<h3 class="divider__title">運営チーム</h3>
 					</div>
-					<ul class="l-members__list u-flex">
+					<ul class="l-members__list l-members__list--management u-flex">
 						<li class="l-members__item">
-							<div class="member">
+							<div class="member member--management">
 								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
-								<h4 class="member__name">伊藤 玲哉</h4>
-								<p class="member__role">プロジェクト代表</p>
-								<a class="member__view js-popup-trigger" href="#" data-index="0">More</a>
-								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+								<div class="member__details">
+									<h4 class="member__name">伊藤 玲哉</h4>
+									<p class="member__role">プロジェクト代表</p>
+									<a class="member__view js-popup-trigger" href="#" data-index="0">More</a>
+									<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+								</div>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member">
+							<div class="member member--management">
 								<img class="member__image" src="./public/assets/images/member-2.jpg" alt="">
-								<h4 class="member__name">横山 大周</h4>
-								<p class="member__role">マネジメント</p>
-								<a class="member__view js-popup-trigger" href="#" data-index="1">More</a>
-								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+								<div class="member__details">
+									<h4 class="member__name">横山 大周</h4>
+									<p class="member__role">マネジメント</p>
+									<a class="member__view js-popup-trigger" href="#" data-index="1">More</a>
+									<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+								</div>
 							</div>
 						</li>
 						<li class="l-members__item">
-							<div class="member">
+							<div class="member member--management">
 								<img class="member__image" src="./public/assets/images/member-3.jpg" alt="">
-								<h4 class="member__name">田中 大敦</h4>
-								<p class="member__role">ページ構成サポート</p>
-								<a class="member__view js-popup-trigger" href="#" data-index="2">More</a>
-								<p class="member__description">簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+								<div class="member__details">
+									<h4 class="member__name">田中 大敦</h4>
+									<p class="member__role">ページ構成サポート</p>
+									<a class="member__view js-popup-trigger" href="#" data-index="2">More</a>
+									<p class="member__description">簡単なプロフィールが入ります。<br>簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
+								</div>
 							</div>
 						</li>
 					</ul>
 					<div class="divider divider--primary">
 						<h3 class="divider__title">医療チーム</h3>
 					</div>
-					<ul class="l-members__list u-flex">
+					<ul class="l-members__list l-members__list--medical u-flex">
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
@@ -374,7 +378,6 @@
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">プロジェクトの流れ</span>
-						<span class="section-title__en">Flow</span>
 					</h2>
 					<div class="l-flow__diagram u-flex">
 						<div class="l-flow__diagram-step">
@@ -524,7 +527,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-closing">
+			<section class="l-closing" style="display: none;">
 				<div class="l-container l-container--closing">
 					<h2 class="l-closing__title">「旅叶」にご協力をお願いします！</h2>
 					<a class="l-closing__link decorated-link decorated-link--bordered" href="#">クラウドファンディングページへ</a>

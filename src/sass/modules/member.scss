@@ -2,6 +2,26 @@
     position: relative;
 
     text-align: center;
+
+    // MODIFIER
+    &.member--management {
+        @include max-screen($breakpoint-mobile) {
+            display: flex;
+
+            padding: 0 25px;
+
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .member__details {
+                width: 50%;
+            }
+            .member__name {
+                margin-top: 0;
+            }
+        }
+    }
 }
 
 .member__image {
@@ -16,6 +36,10 @@
     box-shadow: 0 3px 35px 10px rgba(10,10,10,.1);
 
     object-fit: cover;
+    @include max-screen($breakpoint-mobile) {
+        width: 135px;
+        height: 135px;
+    }
 }
 
 .member__name {
@@ -24,6 +48,10 @@
     margin-top: 20px;
 
     letter-spacing: .2em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 17px;
+    }
 }
 
 .member__role {
@@ -34,6 +62,10 @@
     letter-spacing: .1em;
 
     color: $color-primary;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+    }
 }
 
 .member__view {
@@ -55,6 +87,12 @@
     color: #fff;
     border-radius: 25px;
     background-color: #373735;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+
+        margin-top: 15px;
+    }
 
     &:hover {
         background-color: $color-primary;
@@ -85,6 +123,10 @@
     margin-top: 30px;
 
     text-align: left;
+
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
 }
 
 .member__tag {
@@ -98,4 +140,14 @@
     color: #fff;
     border-radius: 25px;
     background-color: $color-primary;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 12px;
+
+        padding: 0;
+
+        color: $color-primary;
+        border-radius: none;
+        background-color: initial;
+    }
 }

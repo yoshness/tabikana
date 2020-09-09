@@ -9,6 +9,10 @@
     display: block;
 
     letter-spacing: .2em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 24px;
+    }
 }
 
 .section-title__en {

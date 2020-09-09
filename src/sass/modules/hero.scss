@@ -7,6 +7,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    @include max-screen($breakpoint-mobile) {
+        background-image: url(#{$path-image}/hero-bg-sp.jpg);
+    }
 }
 
 .hero__content {
@@ -16,12 +20,26 @@
 
     transform: translate(-50%, -50%);
     text-align: center;
+
+    @include max-screen($breakpoint-mobile) {
+        position: relative;
+
+        padding: 0 25px;
+    }
 }
 
 .hero__left {
     position: absolute;
     top: 47%;
     left: 60px;
+
+    @include max-screen($breakpoint-mobile) {
+        top: auto;
+        bottom: 25px;
+        left: 0;
+
+        width: 100%;
+    }
 
     small {
         font-size: 10px;
@@ -33,6 +51,16 @@
 
         transform: rotate(90deg);
         letter-spacing: .2em;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 8px;
+
+            top: 120px;
+            left: 0;
+
+            transform: none;
+            text-align: center;
+        }
     }
 }
 
@@ -42,6 +70,13 @@
     left: -10px;
 
     list-style-type: none;
+
+    @include max-screen($breakpoint-mobile) {
+        bottom: 0;
+        left: 0;
+
+        padding-left: 15px;
+    }
 
     li {
         display: block;
@@ -71,6 +106,21 @@
 
     letter-spacing: 1em;
 
+    @include max-screen($breakpoint-mobile) {
+        font-size: 65px;
+
+        position: relative;
+        top: 0;
+        left: 50%;
+
+        display: block;
+
+        width: 260px;
+        margin: 0 auto;
+
+        transform: translateX(-50%);
+    }
+
     &:before {
         font-family: $font-asago;
         font-size: 19px;
@@ -85,6 +135,13 @@
         content: 'たび \A かな';
         transform: translate(-50%, -50%);
         letter-spacing: 1em;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 14px;
+
+            top: 50%;
+            left: 40%;
+        }
     }
 }
 
@@ -97,6 +154,12 @@
     letter-spacing: .07em;
 
     color: $color-primary;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 41px;
+
+        margin-top: 0;
+    }
 
     &:first-letter {
         margin-right: -5px;
@@ -115,4 +178,13 @@
     border-radius: 50px;
     background-color: #fff;
     box-shadow: 0 15px 50px 1px rgba(220,220,220,1);
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 14px;
+
+        margin-top: 30px;
+        padding: 15px 20px;
+
+        letter-spacing: .13em;
+    }
 }
