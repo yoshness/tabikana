@@ -18,12 +18,12 @@
 	<body>
 		<header class="header u-flex" id="js-header">
 			<a class="header__logo" href="#">
-				<img src="./public/assets/images/logo.png" alt="">
+				<img src="./public/assets/images/svg/logo.svg" alt="">
 			</a>
 			<ul class="header__list u-flex">
 				<li>
 					<a href="#">
-						<img src="./public/assets/images/svg/travel.png" alt="">
+						<img src="./public/assets/images/svg/travel.svg" alt="">
 						<span>旅行者として応募</span>
 					</a>
 				</li>
@@ -35,7 +35,7 @@
 				</li>
 				<li>
 					<a href="#">
-						<img src="./public/assets/images/svg/handshake.png" alt="">
+						<img src="./public/assets/images/svg/handshake.svg" alt="">
 						<span>プロジェクトを支援</span>
 					</a>
 				</li>
@@ -133,7 +133,7 @@
 							<div class="why__content u-flex">
 								<div class="why__block">
 									<div class="why__block-image">
-										<img src="./public/assets/images/i_traveler.png" alt="">
+										<img src="./public/assets/images/svg/i_traveler.svg" alt="">
 									</div>
 									<h4 class="why__block-title">
 										【 旅行者の<span>不安</span> 】
@@ -144,7 +144,7 @@
 								</div>
 								<div class="why__block">
 									<div class="why__block-image">
-										<img src="./public/assets/images/i_doctor.png" alt="">
+										<img src="./public/assets/images/svg/i_doctor.svg" alt="">
 									</div>
 									<h4 class="why__block-title">
 										【 医療従事者の<span>不安</span> 】
@@ -169,10 +169,10 @@
 					</h2>
 					<div class="l-about__eyecatch u-flex">
 						<div class="l-about__eyecatch-image">
-							<img src="./public/assets/images/i_traveler.png" alt="">
+							<img src="./public/assets/images/svg/i_traveler.svg" alt="">
 						</div>
 						<div class="l-about__eyecatch-image">
-							<img src="./public/assets/images/i_doctor.png" alt="">
+							<img src="./public/assets/images/svg/i_doctor.svg" alt="">
 						</div>
 					</div>
 					<p class="l-about__description">旅行にいきたい人と応援したい人を繋ぎ、<br>病気を抱えた人が安心して旅行できる環境をつくる。</p>
@@ -327,7 +327,7 @@
 						<div class="map__border map__border--vertical"></div>
 						<div class="map__inner u-flex">
 							<div class="map__details">
-								<img class="map__people" src="./public/assets/images/connected-people.png" alt="">
+								<img class="map__people" src="./public/assets/images/svg/i_supporter.svg" alt="">
 								<p class="map__description">プロジェクトに協力いただける</p>
 								<p class="map__description">医師の人数</p>
 								<p class="map__note">(2020年8月27日現在)</p>
@@ -387,14 +387,14 @@
 						<div class="l-flow__diagram-step">
 							<span>Step.2</span>
 							<div class="l-flow__diagram-image u-flex">
-								<img src="./public/assets/images/step-2.png" alt="">	
+								<img src="./public/assets/images/svg/step-2.svg" alt="">	
 							</div>
 							<p>旅行者募集</p>
 						</div>
 						<div class="l-flow__diagram-step">
 							<span>Step.3</span>
 							<div class="l-flow__diagram-image u-flex">
-								<img src="./public/assets/images/step-3.png" alt="">	
+								<img src="./public/assets/images/svg/step-3.svg" alt="">	
 							</div>
 							<p>旅行の準備〜実現</p>
 						</div>
@@ -410,7 +410,7 @@
 									<div class="flow__speech-bg"></div>
 									<span>行きたい</span>
 								</div>
-								<img src="./public/assets/images/i_traveler.png" alt="">
+								<img src="./public/assets/images/svg/i_traveler.svg" alt="">
 								<p class="flow__label">旅行者</p>
 								<p class="flow__number"><span>10</span>Step</p>
 							</div>
@@ -434,7 +434,7 @@
 									<div class="flow__speech-bg"></div>
 									<span>応援したい</span>
 								</div>
-								<img src="./public/assets/images/i_doctor.png" alt="">
+								<img src="./public/assets/images/svg/i_doctor.svg" alt="">
 								<p class="flow__label">現地の<br>医療従事者</p>
 								<p class="flow__number"><span>05</span>Step</p>
 							</div>
@@ -459,7 +459,7 @@
 						<div class="requirement">
 							<div class="requirement__bg"></div>
 							<div class="requirement__top u-flex">
-								<img src="./public/assets/images/i_traveler.png" alt="">
+								<img src="./public/assets/images/svg/i_traveler.svg" alt="">
 								<h3 class="requirement__title">行きたい</h3>
 								<span class="requirement__tag">旅行者</span>
 							</div>
@@ -485,7 +485,7 @@
 						<div class="requirement">
 							<div class="requirement__bg"></div>
 							<div class="requirement__top u-flex">
-								<img src="./public/assets/images/i_doctor.png" alt="">
+								<img src="./public/assets/images/svg/i_doctor.svg" alt="">
 								<h3 class="requirement__title">協力したい</h3>
 								<span class="requirement__tag">医療従事者</span>
 							</div>
@@ -533,7 +533,7 @@
 						<li class="l-closing__item">
 							<div class="closing-block">
 								<div class="closing-block__image">
-									<img src="./public/assets/images/svg/travel.png" alt="">
+									<img src="./public/assets/images/svg/travel.svg" alt="">
 								</div>
 								<h3 class="closing-block__title">【 旅行者の方 】</h3>
 								<a class="decorated-link decorated-link--disabled decorated-link--no-shadow" href="#">Coming Soon</a>
@@ -551,7 +551,7 @@
 						<li class="l-closing__item">
 							<div class="closing-block">
 								<div class="closing-block__image">
-									<img src="./public/assets/images/svg/handshake.png" alt="">
+									<img src="./public/assets/images/svg/handshake.svg" alt="">
 								</div>
 								<h3 class="closing-block__title">【 お問い合わせ 】</h3>
 								<a class="decorated-link decorated-link--no-shadow" href="#">その他のお問い合わせ</a>
@@ -563,7 +563,7 @@
 		</main>
 		<footer class="footer">
 			<a class="footer__logo" href="#">
-				<img src="./public/assets/images/logo.png" alt="">
+				<img src="./public/assets/images/svg/logo-horizontal.svg" alt="">
 			</a>
 			<a class="footer__privacy" href="#">Privacy Policy</a>
 			<small class="footer__copyright">© 2020 TRAVEL DOCTOR All rights reserved.</small>
