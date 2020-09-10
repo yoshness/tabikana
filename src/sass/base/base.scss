@@ -32,3 +32,8 @@ html, body {
 main, header {
   opacity: 0;
 }
+
+main {
+  overflow: hidden;
+  position: relative;
+}

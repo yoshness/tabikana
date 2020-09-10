@@ -1,6 +1,6 @@
 .header {
     position: absolute;
-    z-index: 1;
+    z-index: 15;
 
     width: 100%;
     padding: 40px 55px;
@@ -8,6 +8,13 @@
     align-items: initial;
     @include max-screen($breakpoint-mobile) {
         padding: 15px;
+    }
+
+    &.is-open {
+        .header__logo,
+        .header__list {
+            display: none;
+        }
     }
 }
 
@@ -25,8 +32,7 @@
 }
 
 .header__list {
-    position: relative;
-    top: 15px;
+    margin-top: 15px;
 
     list-style-type: none;
 
@@ -75,6 +81,64 @@
             letter-spacing: .2em;
 
             color: $base-font-color;
+        }
+    }
+}
+
+.header__hamburger {
+    margin-top: 15px;
+
+    &.is-open {
+        position: absolute;
+        right: 55px;
+
+        @include max-screen($breakpoint-mobile) {
+            right: 15px;
+        }
+
+        span {
+            &:first-child {
+                transform: rotate(45deg);
+            }
+            &:nth-child(2) {
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
+            &:last-child {
+                display: none;
+            }
+        }
+    }
+
+    a {
+        display: block;
+
+        &:hover {
+            span {
+                background-color: $color-primary;
+            }
+        }
+    }
+
+    span {
+        display: block;
+
+        width: 34px;
+        height: 2px;
+        margin-bottom: 5px;
+
+        transition: all $duration $easing;
+
+        background-color: #000;
+
+        &:last-child {
+            width: 20px;
+            height: 1px;
+            margin-bottom: 0;
+            margin-left: auto;
+
+            @include max-screen($breakpoint-mobile) {
+                height: 2px;
+            }
         }
     }
 }

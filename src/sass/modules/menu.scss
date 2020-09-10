@@ -1,0 +1,266 @@
+.menu {
+    position: fixed;
+    top: 0;
+    right: -70%;
+
+    width: 70%;
+    min-height: 100vh;
+    margin-left: auto;
+    padding: 90px 120px 95px;
+
+    transition: transform $duration $easing;
+
+    background-color: #fff;
+    box-shadow: 0 25px 50px 0 #f6e9dc;
+
+    @include max-screen($breakpoint-mobile) {
+        right: -100%;
+
+        overflow: scroll;
+
+        width: 100%;
+        height: 100%;
+        padding: 100px 30px 0;
+    }
+
+    // MODIFIERS
+    &.is-shown {
+        z-index: 11;
+
+        transform: translateX(-100%);
+
+        @include max-screen($breakpoint-mobile) {
+            transform: translateX(-100%);
+        }
+    }
+}
+
+
+
+.menu__links {
+    width: 40%;
+
+    list-style-type: none;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        margin-top: 45px;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+    li {
+        &:not(:last-child) {
+            margin-bottom: 40px;
+
+            @include max-screen($breakpoint-mobile) {
+                margin-bottom: 30px;
+            }
+        }
+
+        a {
+            font-size: 18px;
+            font-weight: bold;
+
+            display: block;
+
+            transition: all $duration $easing;
+            letter-spacing: .15em;
+
+            color: $base-font-color;
+
+            @include max-screen($breakpoint-mobile) {
+                font-size: 14px;
+            }
+
+            &:hover {
+                transform: translateX(10px);
+
+                color: $color-primary;
+            }
+        }
+    }
+
+    // MODIFIER
+    .menu__link--thin {
+        a {
+            font-weight: normal;
+        }
+    }
+}
+
+.menu__buttons {
+    width: 55%;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+
+        order: 1;
+    }
+
+    .decorated-link {
+        font-size: 16px;
+
+        margin-top: 0;
+        margin-bottom: 45px;
+        padding: 25px 0;
+
+        transition: opacity $duration $easing;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 13px;
+
+            margin-bottom: 30px;
+            padding: 18px;
+        }
+
+        &:hover {
+            opacity: .7;
+        }
+
+        &:before {
+            right: 20px;
+
+            width: 15px;
+            height: 15px;
+
+            @include max-screen($breakpoint-mobile) {
+                right: 8px;
+
+                width: 12px;
+                height: 12px;
+            }
+        }
+        &:after {
+            right: 27px;
+
+            width: 30px;
+
+            @include max-screen($breakpoint-mobile) {
+                right: 13px;
+
+                width: 20px;
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &.decorated-link--disabled {
+            font-style: normal;
+
+            position: relative;
+
+            &:after {
+                font-size: 21px;
+                font-style: italic;
+
+                position: absolute;
+                top: auto;
+                right: auto;
+                bottom: -15px;
+                left: 50%;
+
+                display: block;
+
+                width: auto;
+                height: auto;
+
+                content: 'Coming Soon';
+                transform: translateX(-50%);
+
+                color: $base-font-color;
+                background: transparent;
+            }
+        }
+    }
+}
+
+.menu__buttons-divider {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 40px;
+
+    background-color: #f1f0f0;
+
+    @include max-screen($breakpoint-mobile) {
+        margin-bottom: 30px;
+    }
+}
+
+.menu__sns {
+    margin-top: 45px;
+    padding-top: 35px;
+
+    border-top: 1px solid #f1f0f0;
+
+    @include max-screen($breakpoint-mobile) {
+        padding-bottom: 50px;
+
+        border-top: none;
+    }
+}
+
+.menu__icons {
+    position: relative;
+
+    width: 200px;
+    margin-left: auto;
+
+    list-style-type: none;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 175px;
+        margin: 0 auto;
+    }
+
+    &:before {
+        font-family: $font-crimson;
+        font-size: 20px;
+
+        position: absolute;
+        left: -85px;
+
+        content: 'Share';
+        letter-spacing: .15em;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 17px;
+
+            top: -30px;
+            left: 50%;
+
+            transform: translateX(-50%);
+        }
+    }
+
+    li {
+        a {
+            color: $base-font-color;
+
+            i {
+                font-size: 25px;
+
+                @include max-screen($breakpoint-mobile) {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        img {
+            width: 40px;
+            height: auto;
+
+            object-fit: contain;
+            @include max-screen($breakpoint-mobile) {
+                position: relative;
+                top: -2px;
+
+                width: 32px;
+            }
+        }
+    }
+}
