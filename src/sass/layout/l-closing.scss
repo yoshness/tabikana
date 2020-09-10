@@ -10,6 +10,10 @@
     background-position: center center;
     background-size: cover;
 
+    @include max-screen($breakpoint-mobile) {
+        padding: 120px 0 100px;
+    }
+
     &:before {
         position: absolute;
         top: -85px;
@@ -24,6 +28,12 @@
         transform: rotate(180deg) translateX(-50%);
 
         background: linear-gradient(#fff 50%, #000 50%);
+
+        @include max-screen($breakpoint-mobile) {
+            top: -42px;
+
+            height: 86px;
+        }
     }
 }
 
@@ -34,6 +44,10 @@
     position: relative;
 
     display: inline-block;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 15px;
+    }
 
     &:before,
     &:after {
@@ -50,12 +64,27 @@
         transform: rotate(-25deg);
 
         background-color: #000;
+
+        @include max-screen($breakpoint-mobile) {
+            top: -20px;
+            left: -30px;
+
+            height: 60px;
+
+            transform: rotate(-18deg);
+        }
     }
     &:after {
         right: -50px;
         left: auto;
 
         transform: rotate(25deg);
+
+        @include max-screen($breakpoint-mobile) {
+            right: -30px;
+
+            transform: rotate(18deg);
+        }
     }
 }
 
@@ -64,6 +93,12 @@
     margin: 70px auto 170px;
 
     box-shadow: 0 10px 40px 10px #cdc099;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 110%;
+        margin: 60px auto 130px;
+        margin-left: -4.5vw;
+    }
 }
 
 .l-closing__list {
@@ -73,11 +108,29 @@
 .l-closing__item {
     width: 31%;
 
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        margin-bottom: 110px;
+    }
+
+    &:last-child {
+        @include max-screen($breakpoint-mobile) {
+            margin-bottom: 0;
+        }
+    }
+
     .decorated-link {
         font-size: 16px;
 
         margin-top: 0;
         padding: 25px 0;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 14px;
+
+            width: 100%;
+            padding: 20px 0;
+        }
 
         &:before {
             right: 20px;

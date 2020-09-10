@@ -5,6 +5,17 @@
     padding: 20px 10px 10px;
 
     box-shadow: 0 25px 50px -27px #ff9600;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        padding: 15px 10px 9px;
+    }
+
+    &:first-child {
+        @include max-screen($breakpoint-mobile) {
+            margin-bottom: 60px;
+        }
+    }
 }
 
 .requirement__bg {
@@ -36,6 +47,11 @@
         margin-left: 20px;
 
         object-fit: contain;
+        @include max-screen($breakpoint-mobile) {
+            width: auto;
+            height: 54px;
+            margin-left: 15px;
+        }
     }
 }
 
@@ -45,6 +61,13 @@
     margin-left: 15px;
 
     letter-spacing: .2em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 15px;
+
+        margin-left: 20px;
+        margin-left: 10px;
+    }
 }
 
 .requirement__tag {
@@ -61,6 +84,13 @@
     color: #fff;
     border-radius: 25px;
     background-color: $color-primary;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 12px;
+
+        margin-left: 10px;
+        padding: 6px 8px 4px 13px;
+    }
 }
 
 .requirement__list {
@@ -74,6 +104,10 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: #fff;
+
+    @include max-screen($breakpoint-mobile) {
+        padding: 30px 17px 40px;
+    }
 
     &:after {
         position: absolute;
@@ -93,12 +127,19 @@
         border-color: transparent #f9e4c5 transparent transparent;
 
         filter: saturate(100%) brightness(1);
+        @include max-screen($breakpoint-mobile) {
+            left: 50px;
+        }
     }
 }
 
 .requirement__item {
     &:not(:last-child) {
         margin-bottom: 35px;
+
+        @include max-screen($breakpoint-mobile) {
+            margin-bottom: 20px;
+        }
     }
 }
 
@@ -113,8 +154,18 @@
 
     border-radius: 7px;
     background-color: #f1f0f0;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 12px;
+
+        margin-bottom: 20px;
+    }
 }
 
 .requirement__item-text {
     line-height: 2;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 14px;
+    }
 }

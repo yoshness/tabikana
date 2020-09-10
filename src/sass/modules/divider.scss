@@ -12,7 +12,7 @@
     @include max-screen($breakpoint-mobile) {
         width: 60%;
         margin: 60px auto;
-        padding: 10px 0 8px;
+        padding: 7px 0 5px;
     }
 
     &:before,
@@ -73,10 +73,22 @@
             left: -80%;
 
             width: 80%;
+
+            @include max-screen($breakpoint-mobile) {
+                left: -53px;
+
+                width: 53px;
+            }
         }
         &:after {
             right: -80%;
             left: auto;
+
+            @include max-screen($breakpoint-mobile) {
+                right: -53px;
+
+                width: 53px;
+            }
         }
     }
 }

@@ -1,5 +1,9 @@
 .l-sponsors {
     padding: 40px 0 180px;
+
+    @include max-screen($breakpoint-mobile) {
+        padding: 0 0 120px;
+    }
 }
 
 .l-sponsors__content {
@@ -7,12 +11,20 @@
     margin: 0 auto;
 
     text-align: center;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+    }
 }
 
 .l-sponsors__title {
     font-size: 33px;
 
     letter-spacing: .2em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 20px;
+    }
 }
 
 .l-sponsors__list {
@@ -20,10 +32,21 @@
     margin: 90px auto 0;
 
     list-style-type: none;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        margin-top: 40px;
+    }
 }
 
 .l-sponsors__item {
     width: 30%;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        margin-bottom: 25px;
+        padding: 0 30px;
+    }
 }
 
 .l-sponsors__note {
@@ -32,8 +55,18 @@
     margin-top: 30px;
 
     letter-spacing: .2em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+
+        margin-top: 20px;
+    }
 }
 
 .l-sponsors__link {
     margin-top: 110px;
+
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 50px;
+    }
 }

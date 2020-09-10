@@ -3,15 +3,27 @@
 
     text-align: center;
     letter-spacing: .05em;
+
+    @include max-screen($breakpoint-mobile) {
+        padding: 50px 0 60px;
+    }
 }
 .footer__logo {
     display: block;
 
     margin-bottom: 40px;
 
+    @include max-screen($breakpoint-mobile) {
+        margin-bottom: 30px;
+    }
+
     img {
         width: 235px;
         height: auto;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 145px;
+        }
     }
 }
 .footer__privacy {
@@ -25,6 +37,12 @@
 
     color: $base-font-color;
 
+    @include max-screen($breakpoint-mobile) {
+        font-size: 12px;
+
+        margin-bottom: 35px;
+    }
+
     &:hover {
         color: $color-primary;
     }
@@ -33,4 +51,10 @@
     font-size: 12px;
 
     display: block;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 10px;
+
+        letter-spacing: .1em;
+    }
 }

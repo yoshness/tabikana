@@ -351,26 +351,32 @@
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-1.png" alt="">
-									<div class="sponsor__name">担当 / 白鳥 央</div>
-									<a class="sponsor__view" href="#">More</a>
+									<div class="sponsor__details">
+										<div class="sponsor__name">担当 / 白鳥 央</div>
+										<a class="sponsor__view" href="#">More</a>
+									</div>
 								</div>
 							</li>
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-2.png" alt="">
-									<div class="sponsor__name">担当 / 村田 栄蔵</div>
-									<a class="sponsor__view" href="#">More</a>
+									<div class="sponsor__details">
+										<div class="sponsor__name">担当 / 村田 栄蔵</div>
+										<a class="sponsor__view" href="#">More</a>
+									</div>
 								</div>
 							</li>
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-3.png" alt="">
-									<div class="sponsor__name">担当 / 村田 栄蔵</div>
-									<a class="sponsor__view" href="#">More</a>
+									<div class="sponsor__details">
+										<div class="sponsor__name">担当 / 村田 栄蔵</div>
+										<a class="sponsor__view" href="#">More</a>
+									</div>
 								</div>
 							</li>
 						</ul>
-						<a class="l-sponsors__link decorated-link" href="#">法人ご担当者様や報道関係の方はこちらから</a>
+						<a class="l-sponsors__link decorated-link" href="#">法人ご担当者様はこちらから</a>
 					</div>
 				</div>
 			</aside>
@@ -405,7 +411,7 @@
 					<div class="divider divider--primary divider--full">
 						<h3 class="divider__title">運営チーム</h3>
 					</div>
-					<div class="l-flow__content">
+					<div class="l-flow__content" style="display: none;">
 						<div class="flow u-flex">
 							<img src="./public/assets/images/flow-bg-1.png" alt="" class="flow__diagram">
 							<div class="flow__details">
@@ -521,13 +527,13 @@
 					</h2>
 					<div class="l-message__content">
 						<h3>旅行へ行きたい<br>いまを生きたい</h3>
-						<p>患者さんの「旅行に行きたい」という言葉には、<br>「今を生きたい」という願いが込められていると思います。</p>
-						<p><strong>すべての人が安心して安全に旅行ができる環境づくりを</strong></p>
-						<p>医師人生をかけてこのプロジェクトを実現します。<br>その第一歩としての今回のプロジェクトに、ぜひご支援をよろしくお願い申し上げます。</p>
+						<p>患者さんの「旅行に行きたい」という<br class="u-show-sp">言葉には、<br class="u-show-pc">「今を生きたい」という願いが<br class="u-show-sp">込められていると思います。</p>
+						<p><strong>すべての人が安心して<br class="u-show-sp">安全に旅行ができる環境づくりを</strong></p>
+						<p>医師人生をかけて<br class="u-show-sp">このプロジェクトを実現します。<br>その第一歩としての今回のプロジェクトに、<br class="u-show-sp">ぜひご支援をよろしくお願い申し上げます。</p>
 					</div>
 				</div>
 			</section>
-			<section class="l-closing" style="display: none;">
+			<section class="l-closing">
 				<div class="l-container l-container--closing">
 					<h2 class="l-closing__title">「旅叶」にご協力をお願いします！</h2>
 					<a class="l-closing__link decorated-link decorated-link--bordered" href="#">クラウドファンディングページへ</a>
