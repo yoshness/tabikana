@@ -4,8 +4,19 @@
     border: 1px solid $color-primary;
     border-radius: 15px;
 
+    @include max-screen($breakpoint-mobile) {
+        display: block;
+
+        border: none;
+        border-radius: 0;
+    }
+
     &.flow--doctor {
         margin-top: 100px;
+
+        @include max-screen($breakpoint-mobile) {
+            margin-top: 60px;
+        }
 
         .flow__details {
             img {
@@ -18,21 +29,39 @@
             left: -80px;
 
             justify-content: flex-end;
+            @include max-screen($breakpoint-mobile) {
+                left: auto;
+
+                justify-content: initial;
+            }
 
             li {
                 min-width: 180px;
                 margin-right: 55px;
+
+                @include max-screen($breakpoint-mobile) {
+                    min-width: 98px;
+                    margin-right: 0;
+                }
 
                 &:nth-child(3) {
                     margin-right: 0;
                 }
                 &:nth-child(4) {
                     order: 5;
+                    @include max-screen($breakpoint-mobile) {
+                        order: 4;
+                    }
                 }
                 &:nth-child(5) {
                     margin-right: 55px;
 
                     order: 4;
+                    @include max-screen($breakpoint-mobile) {
+                        margin-right: 0;
+
+                        order: 5;
+                    }
                 }
             }
         }
@@ -46,6 +75,10 @@
 
     width: 936px;
     height: 262px;
+
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
 }
 
 .flow__details {
@@ -55,6 +88,18 @@
 
     text-align: center;
 
+    @include max-screen($breakpoint-mobile) {
+        display: flex;
+
+        width: 75%;
+        margin: 0 auto;
+        padding-left: 0;
+
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
     img {
         position: relative;
 
@@ -62,6 +107,13 @@
         height: 95px;
         margin-bottom: 30px;
         margin-left: -20px;
+
+        @include max-screen($breakpoint-mobile) {
+            width: auto;
+            height: 62px;
+            margin-bottom: 20px;
+            margin-left: 0;
+        }
     }
 }
 
@@ -69,6 +121,10 @@
     position: relative;
 
     margin-bottom: 40px;
+
+    @include max-screen($breakpoint-mobile) {
+        order: 2;
+    }
 
     &:before,
     &:after {
@@ -84,6 +140,10 @@
         content: '';
 
         background-color: #fff;
+
+        @include max-screen($breakpoint-mobile) {
+            display: none;
+        }
     }
     &:after {
         right: -10px;
@@ -99,6 +159,12 @@
         display: block;
 
         padding: 30px 0;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 15px;
+
+            padding: 22px 28px;
+        }
     }
 }
 
@@ -133,6 +199,23 @@
         border-color: #f9e4c5 transparent transparent transparent;
 
         filter: saturate(160%) brightness(.93);
+        @include max-screen($breakpoint-mobile) {
+            top: 50%;
+            left: -10px;
+
+            transform: translateY(-50%);
+
+            border-width: 6px 10px 6px 0;
+            border-color: transparent #f9e4c5 transparent transparent;
+
+            filter: saturate(230%) brightness(.92);
+        }
+    }
+}
+
+.flow__details-content {
+    @include max-screen($breakpoint-mobile) {
+        order: 1;
     }
 }
 
@@ -141,6 +224,10 @@
     font-weight: bold;
 
     letter-spacing: .2em;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 12px;
+    }
 }
 
 .flow__number {
@@ -156,6 +243,10 @@
 
     color: $color-primary;
 
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+
     span {
         font-size: 58px;
 
@@ -165,8 +256,22 @@
     }
 }
 
-.flow__list {
+.flow__list-wrapper {
     width: 80%;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        margin: 28px -15px 60px 20px;
+        padding: 15px 0 15px 20px;
+
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0 20px 50px 5px #ecddc1;
+    }
+}
+
+.flow__list {
+    width: 100%;
     padding: 70px 0 40px;
 
     list-style-type: none;
@@ -174,6 +279,10 @@
     counter-reset: flow;
 
     justify-content: initial;
+    @include max-screen($breakpoint-mobile) {
+        margin: 0;
+        padding: 0;
+    }
 
     li {
         font-weight: bold;
@@ -199,6 +308,15 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
+        @include max-screen($breakpoint-mobile) {
+            font-size: 15px;
+
+            min-width: 100px;
+            height: auto;
+            margin-right: 0;
+            margin-bottom: 0;
+            padding: 35px 15px;
+        }
 
         &:nth-child(5) {
             margin-right: 0;
@@ -207,18 +325,30 @@
             margin-right: 0;
 
             order: 10;
+            @include max-screen($breakpoint-mobile) {
+                order: 6;
+            }
         }
         &:nth-child(7) {
             order: 9;
+            @include max-screen($breakpoint-mobile) {
+                order: 7;
+            }
         }
         &:nth-child(8) {
             order: 8;
         }
         &:nth-child(9) {
             order: 7;
+            @include max-screen($breakpoint-mobile) {
+                order: 9;
+            }
         }
         &:nth-child(10) {
             order: 6;
+            @include max-screen($breakpoint-mobile) {
+                order: 10;
+            }
         }
 
         &:before {
@@ -243,6 +373,138 @@
             border: 5px solid $color-primary;
             border-radius: 50%;
             background-color: #fff;
+
+            @include max-screen($breakpoint-mobile) {
+                font-size: 16px;
+
+                width: 27px;
+                height: 27px;
+
+                border-width: 3px;
+            }
         }
+    }
+
+    .slick-list {
+        @include max-screen($breakpoint-mobile) {
+            // margin: 0 -15px;
+            padding: 25px 15px;
+        }
+    }
+    .slick-slide {
+        @include max-screen($breakpoint-mobile) {
+            margin-right: 30px;
+        }
+    }
+}
+
+.flow__arrows {
+    display: none;
+
+    @include max-screen($breakpoint-mobile) {
+        display: flex;
+
+        width: 95%;
+    }
+}
+
+.flow__arrow {
+    position: relative;
+
+    display: block;
+
+    width: 12%;
+    height: 35px;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: $color-primary;
+
+    &.flow__arrow--prev {
+        &:before {
+            position: absolute;
+            top: 56%;
+            left: 40%;
+
+            display: block;
+
+            width: 12px;
+            height: 12px;
+
+            content: '';
+            transform: rotate(45deg) translate(-50%, -50%);
+
+            border-bottom: 2px solid #fff;
+            border-left: 2px solid #fff;
+        }
+    }
+    &.flow__arrow--next {
+        &:before {
+            position: absolute;
+            top: 56%;
+            right: 40%;
+            left: auto;
+
+            display: block;
+
+            width: 12px;
+            height: 12px;
+
+            content: '';
+            transform: rotate(45deg) translate(-50%, -50%);
+
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+    }
+
+    &.slick-disabled {
+        background-color: #e3e2e2;
+    }
+}
+
+.flow__progress {
+    @include max-screen($breakpoint-mobile) {
+        position: relative;
+
+        width: 76%;
+        height: 4px;
+
+        background-color: #adadad;
+    }
+}
+
+.flow__progress-marker {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    display: block;
+
+    width: 13vw;
+    height: 4px;
+
+    transition: left $duration $easing;
+    transform: translateY(-50%);
+
+    background-color: $color-primary;
+}
+
+.flow__steps {
+    font-family: $font-crimson;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+
+    position: relative;
+    left: -20px;
+
+    text-align: center;
+    letter-spacing: .05em;
+
+    color: $color-primary;
+
+    span {
+        font-size: 15px;
     }
 }

@@ -480,7 +480,7 @@
 					<div class="divider divider--primary divider--full">
 						<h3 class="divider__title">運営チーム</h3>
 					</div>
-					<div class="l-flow__content" style="display: none;">
+					<div class="l-flow__content">
 						<div class="flow u-flex">
 							<img src="./public/assets/images/flow-bg-1.png" alt="" class="flow__diagram">
 							<div class="flow__details">
@@ -488,22 +488,34 @@
 									<div class="flow__speech-bg"></div>
 									<span>行きたい</span>
 								</div>
-								<img src="./public/assets/images/svg/i_traveler.svg" alt="">
-								<p class="flow__label">旅行者</p>
-								<p class="flow__number"><span>10</span>Step</p>
+								<div class="flow__details-content">
+									<img src="./public/assets/images/svg/i_traveler.svg" alt="">
+									<p class="flow__label">旅行者</p>
+									<p class="flow__number"><span>10</span>Step</p>
+								</div>
 							</div>
-							<ul class="flow__list u-flex">
-								<li>応募</li>
-								<li>書類選考</li>
-								<li>ヒアリング</li>
-								<li>チーム<br>カンファレンス</li>
-								<li>契約</li>
-								<li>旅行前<br>診察</li>
-								<li>旅行詳細</li>
-								<li>現地下見</li>
-								<li>旅行実行</li>
-								<li>旅行終了</li>
-							</ul>
+							<div class="flow__list-wrapper">
+								<ul class="flow__list u-flex" id="js-flow-primary">
+									<li>応募</li>
+									<li>書類選考</li>
+									<li>ヒアリング</li>
+									<li>チーム<br class="u-show-pc">カンファレンス</li>
+									<li>契約</li>
+									<li>旅行前<br class="u-show-pc">診察</li>
+									<li>旅行詳細</li>
+									<li>現地下見</li>
+									<li>旅行実行</li>
+									<li>旅行終了</li>
+								</ul>
+								<div class="flow__arrows u-flex">
+									<a class="flow__arrow flow__arrow--prev js-slider-prev" href="#"></a>
+									<div class="flow__progress">
+										<span class="flow__progress-marker" id="js-flow-marker"></span>
+									</div>
+									<a class="flow__arrow flow__arrow--next js-slider-next" href="#"></a>
+								</div>
+								<div class="flow__steps u-show-sp">10 <span>Steps</span></div>
+							</div>
 						</div>
 						<div class="flow flow--doctor u-flex">
 							<img src="./public/assets/images/flow-bg-2.png" alt="" class="flow__diagram">
@@ -512,17 +524,29 @@
 									<div class="flow__speech-bg"></div>
 									<span>応援したい</span>
 								</div>
-								<img src="./public/assets/images/svg/i_doctor.svg" alt="">
-								<p class="flow__label">現地の<br>医療従事者</p>
-								<p class="flow__number"><span>05</span>Step</p>
+								<div class="flow__details-content">
+									<img src="./public/assets/images/svg/i_doctor.svg" alt="">
+									<p class="flow__label">現地の<br class="u-show-pc">医療従事者</p>
+									<p class="flow__number"><span>05</span>Step</p>
+								</div>
 							</div>
-							<ul class="flow__list u-flex">
-								<li>ご登録</li>
-								<li>旅行医から相談</li>
-								<li>ご承諾</li>
-								<li>医療情報の共有</li>
-								<li>旅行中の医療連携</li>
-							</ul>
+							<div class="flow__list-wrapper">
+								<ul class="flow__list u-flex" id="js-flow-doctor">
+									<li>ご登録</li>
+									<li>旅行医から相談</li>
+									<li>ご承諾</li>
+									<li>医療情報の共有</li>
+									<li>旅行中の医療連携</li>
+								</ul>
+								<div class="flow__arrows u-flex">
+									<a class="flow__arrow flow__arrow--prev js-slider-prev" href="#"></a>
+									<div class="flow__progress">
+										<span class="flow__progress-marker" id="js-flow-marker-2"></span>
+									</div>
+									<a class="flow__arrow flow__arrow--next js-slider-next" href="#"></a>
+								</div>
+								<div class="flow__steps u-show-sp">05 <span>Steps</span></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -649,13 +673,13 @@
 
 		<script src="./public/assets/app.js"></script>
 
-    <div class="loader" id="js-loader">
+    <!-- <div class="loader" id="js-loader">
     	<div class="loader__inner">
     		<div class="loader__image">
     			<div class="loader__progress" id="js-loader-progress"></div>
     		</div>
     		<div class="loader__percent" id="js-loader-pct"></div>
     	</div>
-    </div>
+    </div> -->
 	</body>
 </html>
