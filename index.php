@@ -16,37 +16,40 @@
 	</head>
 
 	<body>
-		<header class="header u-flex" id="js-header">
-			<a class="header__logo" href="#">
-				<img class="u-show-pc" src="./public/assets/images/svg/logo.svg" alt="">
-				<img class="u-show-sp" src="./public/assets/images/svg/logo-horizontal.svg" alt="">
-			</a>
-			<ul class="header__list u-flex">
-				<li>
-					<a href="#">
-						<img src="./public/assets/images/svg/travel.svg" alt="">
-						<span>旅行者として応募</span>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="./public/assets/images/svg/doctor.svg" alt="">
-						<span>医療従事者として協力</span>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="./public/assets/images/svg/handshake.svg" alt="">
-						<span>プロジェクトを支援</span>
-					</a>
-				</li>
-			</ul>
-			<div class="header__hamburger" id="js-toggle-menu">
-				<a href="#">
-					<span></span>
-					<span></span>
-					<span></span>
+		<header class="header" id="js-header">
+			<div class="header__inner u-flex">
+				<a class="header__logo" href="#">
+					<img class="header__logo-img header__logo-img--primary u-show-pc" src="./public/assets/images/svg/logo.svg" alt="">
+					<img class="header__logo-img header__logo-img--sticky" src="./public/assets/images/svg/logo-horizontal.svg" alt="">
+					<img class="u-show-sp" src="./public/assets/images/svg/logo-horizontal.svg" alt="">
 				</a>
+				<ul class="header__list u-flex">
+					<li>
+						<a href="#">
+							<img src="./public/assets/images/svg/travel.svg" alt="">
+							<span>旅行者として応募</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./public/assets/images/svg/doctor.svg" alt="">
+							<span>医療従事者として協力</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./public/assets/images/svg/handshake.svg" alt="">
+							<span>プロジェクトを支援</span>
+						</a>
+					</li>
+				</ul>
+				<div class="header__hamburger" id="js-toggle-menu">
+					<a href="#">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</div>
 			</div>
 		</header>
 		<main id="js-main">

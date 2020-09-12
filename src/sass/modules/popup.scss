@@ -12,6 +12,13 @@
     border-radius: 15px;
     background-color: #fff;
     box-shadow: 0 0 15px 10px rgba(10,10,10,.1);
+
+    @include max-screen($breakpoint-mobile) {
+        position: absolute;
+
+        width: 100%;
+        padding: 15px 18px;
+    }
 }
 
 .popup__content {
@@ -29,6 +36,15 @@
 
     border-radius: 25px;
     background-color: #fdd294;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+
+        top: 10px;
+        right: 10px;
+
+        padding: 6px 10px 3px;
+    }
 }
 
 .popup__image {
@@ -37,6 +53,9 @@
 
     object-fit: cover;
     object-position: top;
+    @include max-screen($breakpoint-mobile) {
+        height: 175px;
+    }
 }
 
 .popup__details {
@@ -56,6 +75,10 @@
     color: #fff;
     border-radius: 25px;
     background-color: $color-primary;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 13px;
+    }
 }
 
 .popup__name-ja {
@@ -65,6 +88,12 @@
     display: inline-block;
 
     margin-top: 45px;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 25px;
+
+        margin-top: 25px;
+    }
 }
 
 .popup__name-en {
@@ -73,6 +102,10 @@
     font-style: italic;
 
     margin-left: 20px;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 14px;
+    }
 }
 
 .popup__role {
@@ -92,6 +125,10 @@
     display: block;
 
     margin: 25px 0;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 14px;
+    }
 
     &:after {
         position: absolute;
@@ -114,6 +151,16 @@
     line-height: 1.7;
 }
 
+
+// OVERRIDES
+.mfp-container {
+    @include max-screen($breakpoint-mobile) {
+        top: 40px;
+
+        padding: 0 15px;
+    }
+}
+
 .mfp-bg {
     background-color: #fff;
 }
@@ -129,6 +176,14 @@ button.mfp-arrow {
 
     border-radius: 50%;
     background-color: $color-primary;
+
+    @include max-screen($breakpoint-mobile) {
+        top: auto;
+        bottom: -100px;
+
+        width: 42px;
+        height: 42px;
+    }
 
     &:before {
         position: absolute;
@@ -148,6 +203,11 @@ button.mfp-arrow {
         border: 0;
         border-bottom: 2px solid #fff;
         border-left: 2px solid #fff;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 10px;
+            height: 10px;
+        }
     }
     &:after {
         font-family: $font-crimson;
@@ -174,9 +234,17 @@ button.mfp-arrow {
 
     &.mfp-arrow-left {
         left: 20%;
+
+        @include max-screen($breakpoint-mobile) {
+            left: 5%;
+        }
     }
     &.mfp-arrow-right {
         right: 20%;
+
+        @include max-screen($breakpoint-mobile) {
+            right: 5%;
+        }
 
         &:before {
             right: 42%;

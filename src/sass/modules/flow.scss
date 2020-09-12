@@ -109,6 +109,8 @@
         margin-left: -20px;
 
         @include max-screen($breakpoint-mobile) {
+            z-index: 1;
+
             width: auto;
             height: 62px;
             margin-bottom: 20px;
@@ -215,7 +217,26 @@
 
 .flow__details-content {
     @include max-screen($breakpoint-mobile) {
+        position: relative;
+
         order: 1;
+
+        &:after {
+            position: absolute;
+            top: 55px;
+            left: 50%;
+
+            display: block;
+
+            width: 60px;
+            height: 13px;
+
+            content: '';
+            transform: translateX(-50%);
+
+            border-radius: 50%;
+            background-color: #ffb30c;
+        }
     }
 }
 
@@ -315,7 +336,9 @@
             height: auto;
             margin-right: 0;
             margin-bottom: 0;
-            padding: 35px 15px;
+            padding: 29px 15px;
+
+            border-radius: 8px;
         }
 
         &:nth-child(5) {
