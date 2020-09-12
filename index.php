@@ -676,13 +676,13 @@
 
 		<script src="./public/assets/app.js"></script>
 
-    <!-- <div class="loader" id="js-loader">
-    	<div class="loader__inner">
-    		<div class="loader__image">
-    			<div class="loader__progress" id="js-loader-progress"></div>
-    		</div>
-    		<div class="loader__percent" id="js-loader-pct"></div>
-    	</div>
-    </div> -->
+	    <div class="loader" id="js-loader">
+	    	<div class="loader__inner">
+	    		<div class="loader__image">
+	    			<div class="loader__progress" id="js-loader-progress"></div>
+	    		</div>
+	    		<div class="loader__percent" id="js-loader-pct"></div>
+	    	</div>
+	    </div>
 	</body>
 </html>
