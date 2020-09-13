@@ -5,14 +5,18 @@ export default function bulletScroll() {
 	$trigger.click((e) => {
 		e.preventDefault();
 		
-		// setTimeout(() => {
-			$trigger.parent().removeClass(IS_ACTIVE);
-			$(e.currentTarget).parent().addClass(IS_ACTIVE);
-		// }, 3000);
+		$trigger.parent().removeClass(IS_ACTIVE);
+		$(e.currentTarget).parent().addClass(IS_ACTIVE);
 
-		let $target = $($(e.currentTarget).attr('href'));
+		let $target = $($(e.currentTarget).attr('href')),
+			offset = 0;
 	    if($target != '') {
-	    	$('html, body').stop().animate({ scrollTop: $target.offset().top }, 1000);
+
+	    	if($(e.currentTarget).data('offset')) {
+	    		offset = $(e.currentTarget).data('offset');
+	    	}
+
+	    	$('html, body').stop().animate({ scrollTop: $target.offset().top + offset }, 1000);
 	    }
 	}); 
 }

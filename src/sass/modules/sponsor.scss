@@ -47,7 +47,7 @@
 }
 
 .sponsor__view {
-    font-family: $font-crimson;
+    font-family: $font-crimson-semibold;
     font-size: 14px;
 
     position: relative;
@@ -70,6 +70,8 @@
         font-size: 11px;
 
         margin-top: 10px;
+        padding-top: 4px;
+        padding-bottom: 2px;
     }
 
     &:hover {

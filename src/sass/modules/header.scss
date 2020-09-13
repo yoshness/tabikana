@@ -153,12 +153,6 @@
 
     a {
         display: block;
-
-        &:hover {
-            span {
-                background-color: $color-primary;
-            }
-        }
     }
 
     span {
@@ -168,19 +162,14 @@
         height: 2px;
         margin-bottom: 5px;
 
-        transition: all $duration $easing;
+        transition: transform $duration $easing;
 
         background-color: #000;
 
         &:last-child {
             width: 20px;
-            height: 1px;
             margin-bottom: 0;
             margin-left: auto;
-
-            @include max-screen($breakpoint-mobile) {
-                height: 2px;
-            }
         }
     }
 }

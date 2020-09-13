@@ -1,5 +1,6 @@
 .menu {
     position: fixed;
+    z-index: 11;
     top: 0;
     right: -70%;
 
@@ -20,13 +21,11 @@
 
         width: 100%;
         height: 100%;
-        padding: 100px 30px 0;
+        padding: 70px 30px 0;
     }
 
     // MODIFIERS
     &.is-shown {
-        z-index: 11;
-
         transform: translateX(-100%);
 
         @include max-screen($breakpoint-mobile) {
@@ -84,9 +83,13 @@
     }
 
     // MODIFIER
-    .menu__link--thin {
+    .menu__item--thin {
         a {
             font-weight: normal;
+
+            @include max-screen($breakpoint-mobile) {
+                font-size: 13px;
+            }
         }
     }
 }
@@ -112,8 +115,29 @@
         @include max-screen($breakpoint-mobile) {
             font-size: 13px;
 
+            width: 100%;
             margin-bottom: 30px;
             padding: 18px;
+
+            letter-spacing: .07em;
+        }
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 30px;
+
+            width: 42px;
+            height: auto;
+
+            transform: translateY(-50%);
+
+            filter: invert(1);
+            @include max-screen($breakpoint-mobile) {
+                left: 23px;
+
+                width: 25px;
+            }
         }
 
         &:hover {
@@ -127,10 +151,7 @@
             height: 15px;
 
             @include max-screen($breakpoint-mobile) {
-                right: 8px;
-
-                width: 12px;
-                height: 12px;
+                display: none;
             }
         }
         &:after {
@@ -139,9 +160,7 @@
             width: 30px;
 
             @include max-screen($breakpoint-mobile) {
-                right: 13px;
-
-                width: 20px;
+                display: none;
             }
         }
 
@@ -153,6 +172,10 @@
             font-style: normal;
 
             position: relative;
+
+            img {
+                filter: contrast(0);
+            }
 
             &:after {
                 font-size: 21px;
@@ -174,7 +197,23 @@
 
                 color: $base-font-color;
                 background: transparent;
+
+                @include max-screen($breakpoint-mobile) {
+                    font-size: 12px;
+
+                    bottom: -8px;
+                }
             }
+        }
+    }
+
+    .menu__button--primary {
+        @include max-screen($breakpoint-mobile) {
+            padding: 24px 0;
+
+            color: $base-font-color;
+            background: rgb(250,186,31);
+            background: linear-gradient(90deg, rgba(250,186,31,1) 0%, rgba(253,240,210,1) 50%, rgba(178,221,249,1) 100%);
         }
     }
 }
@@ -198,6 +237,7 @@
     border-top: 1px solid #f1f0f0;
 
     @include max-screen($breakpoint-mobile) {
+        margin-top: 15px;
         padding-bottom: 50px;
 
         border-top: none;
@@ -228,12 +268,7 @@
         letter-spacing: .15em;
 
         @include max-screen($breakpoint-mobile) {
-            font-size: 17px;
-
-            top: -30px;
-            left: 50%;
-
-            transform: translateX(-50%);
+            display: none;
         }
     }
 
@@ -251,16 +286,26 @@
         }
 
         img {
+            position: relative;
+            top: -2px;
+
             width: 40px;
             height: auto;
 
             object-fit: contain;
             @include max-screen($breakpoint-mobile) {
-                position: relative;
-                top: -2px;
+                top: -4px;
 
                 width: 32px;
             }
         }
+    }
+}
+
+.menu__logo {
+    @include max-screen($breakpoint-mobile) {
+        width: 83px;
+        height: auto;
+        margin: 0 auto 50px;
     }
 }

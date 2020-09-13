@@ -15,9 +15,9 @@ $site-size: 1090px + 60;
 $color-primary: #ff9600; // orange
 
 // easing / animation
-$duration: .4s;
+$duration: .5s;
 $duration-long: .7s;
-$easing: ease-in-out;
+$easing: ease-out;
 $delay: .35s;
 
 //breakpoints
@@ -29,6 +29,7 @@ $path-image: "#{$path-assets}/images";
 $path-font: "#{$path-assets}/fonts";
 
 $font-crimson: 'CrimsonText-BoldItalic';
+$font-crimson-semibold: 'CrimsonText-Semibold';
 $font-asago: 'AsagoHonmaruGothic-Type3';
 
 @font-face {
@@ -37,6 +38,14 @@ $font-asago: 'AsagoHonmaruGothic-Type3';
     url('#{$path-font}/CrimsonText-BoldItalic.woff2') format('woff2'),  /* Super Modern Browsers */
     url('#{$path-font}/CrimsonText-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
     url('#{$path-font}/CrimsonText-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'CrimsonText-Semibold';
+    src: url('#{$path-font}/CrimsonText-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('#{$path-font}/CrimsonText-Semibold.woff2') format('woff2'),  /* Super Modern Browsers */
+    url('#{$path-font}/CrimsonText-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('#{$path-font}/CrimsonText-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 @font-face {

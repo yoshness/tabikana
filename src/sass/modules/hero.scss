@@ -188,3 +188,47 @@
         letter-spacing: .13em;
     }
 }
+
+.hero__scroll {
+    font-family: $font-crimson-semibold;
+    font-weight: bold;
+
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    bottom: 180px;
+
+    display: block;
+
+    transform: rotate(-90deg);
+    letter-spacing: .1em;
+
+    color: $base-font-color;
+
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+
+    &:before {
+        position: absolute;
+        top: 50%;
+        left: -168px;
+
+        width: 140px;
+        height: 1px;
+
+        content: '';
+        animation: scroll-line 1.5s ease-in-out infinite;
+
+        background-color: #000;
+    }
+}
+
+@keyframes scroll-line {
+    from {
+        width: 140px;
+    }
+    to {
+        width: 0;
+    }
+}

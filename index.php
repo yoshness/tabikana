@@ -10,9 +10,13 @@
 
 		<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
 
-		<link rel="shortcut icon" type="image/png" href="./public/assets/images/svg/favicon.png"/>
+		<link rel="shortcut icon" type="image/png" href="./public/assets/images/favicon.png"/>
 
 		<title>Tabikana</title>
+
+		<meta property="og:title" content="Tabikana">
+		<meta property="og:site_name" content="Tabikana" />
+		<meta property="og:image" content="http://cebushun.sakura.ne.jp/public/assets/images/ogp.png">
 	</head>
 
 	<body>
@@ -56,50 +60,51 @@
 			<div class="overlay" id="js-overlay"></div>
 			<div class="menu" id="js-menu">
 				<div class="menu__content u-flex">
+					<img class="menu__logo u-show-sp" src="./public/assets/images/svg/logo.svg" alt="">
 					<ul class="menu__links">
-						<li>
-							<a href="#">はじめに</a>
+						<li class="menu__item">
+							<a class="js-scroll" href="#js-section-intro">はじめに</a>
 						</li>
-						<li>
-							<a href="#">プロジェクトの背景</a>
+						<li class="menu__item">
+							<a class="js-scroll" href="#js-section-overview" data-offset="-600">プロジェクトの背景</a>
 						</li>
-						<li>
-							<a href="#">プロジェクト概要</a>
+						<li class="menu__item">
+							<a class="js-scroll" href="#js-section-about">プロジェクト概要</a>
 						</li>
-						<li>
-							<a href="#">メンバーの想い</a>
+						<li class="menu__item">
+							<a class="js-scroll" href="#js-section-member">メンバーの想い</a>
 						</li>
-						<li>
-							<a href="#">プロジェクトの流れ</a>
+						<li class="menu__item">
+							<a class="js-scroll" href="#js-section-flow">プロジェクトの流れ</a>
 						</li>
-						<li>
-							<a href="#">募集要項</a>
+						<li class="menu__item">
+							<a class="js-scroll" href="#js-section-requirement">募集要項</a>
 						</li>
-						<li>
-							<a href="#">さいごに</a>
+						<li class="menu__item">
+							<a class="js-scroll" href="#js-section-message">さいごに</a>
 						</li>
-						<li class="menu__link--thin">
+						<li class="menu__item menu__item--thin">
 							<a href="#">PRIVACY POLICY</a>
 						</li>
 					</ul>
 					<div class="menu__buttons">
-						<a class="decorated-link decorated-link--no-shadow" href="#">クラウドファンディングページへ</a>
+						<a class="decorated-link decorated-link--no-shadow menu__button--primary" href="#"><img src="./public/assets/images/svg/agreement.svg" alt="">クラウドファンディングページへ</a>
 						<div class="menu__buttons-divider"></div>
-						<a class="decorated-link decorated-link--disabled decorated-link--no-shadow" href="#">旅行者として応募する</a>
-						<a class="decorated-link decorated-link--no-shadow" href="#">医療従事者として応募する</a>
-						<a class="decorated-link decorated-link--no-shadow" href="#">その他のお問い合わせ</a>
+						<a class="decorated-link decorated-link--disabled decorated-link--no-shadow" href="#"><img src="./public/assets/images/svg/travel.svg" alt="">旅行者として応募する</a>
+						<a class="decorated-link decorated-link--no-shadow" href="#"><img src="./public/assets/images/svg/doctor.svg" alt="">医療従事者として応募する</a>
+						<a class="decorated-link decorated-link--no-shadow" href="#"><img src="./public/assets/images/svg/handshake.svg" alt="">その他のお問い合わせ</a>
 					</div>
 				</div>
 				<div class="menu__sns">
 					<ul class="menu__icons u-flex">
 						<li>
-							<a href="http://facebook.com" target="_blank">
-								<i class="icon icon-facebook"></i>
+							<a href="http://twitter.com" target="_blank">
+								<i class="icon icon-twitter"></i>
 							</a>
 						</li>
 						<li>
-							<a href="http://twitter.com" target="_blank">
-								<i class="icon icon-twitter"></i>
+							<a href="http://facebook.com" target="_blank">
+								<i class="icon icon-facebook"></i>
 							</a>
 						</li>
 						<li>
@@ -109,7 +114,7 @@
 						</li>
 						<li>
 							<a href="#" target="_blank">
-								<img src="./public/assets/images/svg/favicon.png" alt="">
+								<img src="./public/assets/images/svg/airplane.png" alt="">
 							</a>
 						</li>
 					</ul>
@@ -121,7 +126,7 @@
 					<a class="js-bullet-scroll" href="#js-section-intro"><span>はじめに</span></a>
 				</li>
 				<li class="bullet-nav__item">
-					<a class="js-bullet-scroll" href="#js-section-overview"><span>プロジェクトの背景</span></a>
+					<a class="js-bullet-scroll" href="#js-section-overview" data-offset="-600"><span>プロジェクトの背景</span></a>
 				</li>
 				<li class="bullet-nav__item">
 					<a class="js-bullet-scroll" href="#js-section-about"><span>プロジェクト概要</span></a>
@@ -161,7 +166,7 @@
 						</li>
 						<li>
 							<a href="#" target="_blank">
-								<img src="./public/assets/images/svg/favicon.png" alt="">
+								<img src="./public/assets/images/svg/airplane.png" alt="">
 							</a>
 						</li>
 					</ul>
@@ -171,6 +176,7 @@
 					<p class="hero__subtitle">project</p>
 					<p class="hero__description">諦めていた"旅行"を叶えるプロジェクト</p>
 				</div>
+				<a href="#js-section-intro" class="hero__scroll js-scroll">Scroll</a>
 			</div>
 			<div class="l-intro js-activate-on-scroll" id="js-section-intro">
 				<div class="l-container">
@@ -371,7 +377,7 @@
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-6.jpg" alt="">
 								<p class="member__tag">介護タクシー</p>
-								<h4 class="member__name">伊藤 玲哉</h4>
+								<h4 class="member__name">木原 正昭</h4>
 								<p class="member__role">かご屋 代表</p>
 								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
@@ -381,7 +387,7 @@
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-7.jpg" alt="">
 								<p class="member__tag">リハビリ</p>
-								<h4 class="member__name">加藤 信一</h4>
+								<h4 class="member__name">木村 英生</h4>
 								<p class="member__role">リハビリ推進センター</p>
 								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
@@ -391,7 +397,7 @@
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-8.jpg" alt="">
 								<p class="member__tag">旅行会社</p>
-								<h4 class="member__name">前田 和哉</h4>
+								<h4 class="member__name">秋吉 壯俊</h4>
 								<p class="member__role">株式会社秋吉「夢たび」 代表</p>
 								<a class="member__view js-popup-trigger" href="#">More</a>
 								<p class="member__description">簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。簡単なプロフィールが入ります。</p>
@@ -481,7 +487,7 @@
 						</div>
 					</div>
 					<div class="divider divider--primary divider--full">
-						<h3 class="divider__title">運営チーム</h3>
+						<h3 class="divider__title">旅行の流れ</h3>
 					</div>
 					<div class="l-flow__content">
 						<div class="flow u-flex">
