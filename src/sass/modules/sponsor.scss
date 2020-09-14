@@ -49,13 +49,14 @@
 .sponsor__view {
     font-family: $font-crimson-semibold;
     font-size: 14px;
+    line-height: 1;
 
     position: relative;
 
     display: inline-block;
 
     margin: 45px auto 0;
-    padding: 5px 20px 2px 13px;
+    padding: 9px 20px 5px 13px;
 
     transition: background-color $duration $easing;
     text-align: center;
@@ -70,8 +71,8 @@
         font-size: 11px;
 
         margin-top: 10px;
-        padding-top: 4px;
-        padding-bottom: 2px;
+        padding-top: 6px;
+        padding-bottom: 4px;
     }
 
     &:hover {

@@ -145,7 +145,7 @@
 				</li>
 			</ul>
 		</div>
-			<div class="hero">
+			<div class="hero" id="js-hero">
 				<div class="hero__left">
 					<small>© 2020 TRAVEL DOCTOR All rights reserved.</small>
 					<ul class="hero__icons">
@@ -178,7 +178,7 @@
 				</div>
 				<a href="#js-section-intro" class="hero__scroll js-scroll">Scroll</a>
 			</div>
-			<div class="l-intro js-activate-on-scroll" id="js-section-intro">
+			<div class="l-intro js-activate-on-scroll slide-in-up" id="js-section-intro">
 				<div class="l-container">
 					<section class="intro">
 						<h2 class="section-title">
@@ -191,7 +191,7 @@
 					</section>
 				</div>
 			</div>
-			<section class="l-overview js-activate-on-scroll" id="js-section-overview">
+			<section class="l-overview js-activate-on-scroll slide-in-up" id="js-section-overview" data-offset="-300">
 				<div class="l-overview__content">
 					<h2 class="section-title">
 						<span class="section-title__ja">プロジェクトの背景</span>
@@ -201,7 +201,7 @@
 						<p class="l-overview__description">
 							年間140万人が亡くなる中、約100万人が “病室のベッド” で最期を迎えています。<br>つまり、あなたが最期にみる景色は、75%の確率で “病室の天井” になるかもしれません。<br><br>新型コロナウィルスにより、多くの人が “旅行へ行けない” 苦しみを経験しました。<br class="u-show-pc">しかし、コロナが流行するずっと前から、持病で旅行を諦めている人がたくさんいます。
 						</p>
-						<div class="why">
+						<div class="why js-activate-on-scroll slide-in-up">
 							<p class="why__subtitle">解決したい課題</p>
 							<h3 class="why__title">
 								<span>なぜ</span>
@@ -239,7 +239,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-about js-activate-on-scroll" id="js-section-about">
+			<section class="l-about js-activate-on-scroll slide-in-up" id="js-section-about">
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">プロジェクト概要</span>
@@ -262,7 +262,7 @@
 						</h3>
 						<ul class="l-about__features-list u-flex">
 							<li>
-								<div class="feature">
+								<div class="feature js-activate-on-scroll slide-in-up">
 									<h4 class="feature__title">
 										<span>「旅行医療チーム」</span>で、<br>旅行中の医療環境を整えます
 									</h4>
@@ -272,7 +272,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="feature">
+								<div class="feature js-activate-on-scroll slide-in-up">
 									<h4 class="feature__title">
 										<span>旅行関連会社と連携</span>し、<br>安全な旅行環境を整えます
 									</h4>
@@ -282,7 +282,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="feature">
+								<div class="feature js-activate-on-scroll slide-in-up">
 									<h4 class="feature__title">
 										<span>医師が同行</span>し、<br>旅行中の安全・安心を守ります
 									</h4>
@@ -295,7 +295,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-members js-activate-on-scroll" id="js-section-member">
+			<section class="l-members js-activate-on-scroll slide-in-up" id="js-section-member">
 				<div class="l-members-bg"></div>
 				<div class="l-container">
 					 <h2 class="section-title">
@@ -339,10 +339,10 @@
 							</div>
 						</li>
 					</ul>
-					<div class="divider divider--primary">
+					<div class="divider divider--primary js-activate-on-scroll slide-in-up">
 						<h3 class="divider__title">医療チーム</h3>
 					</div>
-					<ul class="l-members__list l-members__list--medical u-flex">
+					<ul class="l-members__list l-members__list--medical u-flex js-activate-on-scroll slide-in-up">
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/member-1.jpg" alt="">
@@ -404,7 +404,7 @@
 							</div>
 						</li>
 					</ul>
-					<div class="l-members__map map">
+					<div class="l-members__map map js-activate-on-scroll slide-in-up">
 						<div class="map__border map__border--horizontal"></div>
 						<div class="map__border map__border--vertical"></div>
 						<div class="map__inner u-flex">
@@ -420,7 +420,7 @@
 					</div>
 				</div>
 			</section>
-			<aside class="l-sponsors">
+			<aside class="l-sponsors js-activate-on-scroll slide-in-up">
 				<div class="l-container">
 					<div class="l-sponsors__content">
 						<h2 class="l-sponsors__title">協賛企業</h2>
@@ -458,12 +458,12 @@
 					</div>
 				</div>
 			</aside>
-			<section class="l-flow js-activate-on-scroll" id="js-section-flow">
+			<section class="l-flow js-activate-on-scroll slide-in-up" id="js-section-flow">
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">プロジェクトの流れ</span>
 					</h2>
-					<div class="l-flow__diagram u-flex">
+					<div class="l-flow__diagram u-flex ">
 						<div class="l-flow__diagram-step">
 							<span>Step.1</span>
 							<div class="l-flow__diagram-image u-flex">
@@ -489,8 +489,8 @@
 					<div class="divider divider--primary divider--full">
 						<h3 class="divider__title">旅行の流れ</h3>
 					</div>
-					<div class="l-flow__content">
-						<div class="flow u-flex">
+					<div class="l-flow__content ">
+						<div class="flow u-flex js-activate-on-scroll slide-in-up">
 							<img src="./public/assets/images/flow-bg-1.png" alt="" class="flow__diagram">
 							<div class="flow__details">
 								<div class="flow__speech">
@@ -526,7 +526,7 @@
 								<div class="flow__steps u-show-sp">10 <span>Steps</span></div>
 							</div>
 						</div>
-						<div class="flow flow--doctor u-flex">
+						<div class="flow flow--doctor u-flex js-activate-on-scroll slide-in-up">
 							<img src="./public/assets/images/flow-bg-2.png" alt="" class="flow__diagram">
 							<div class="flow__details">
 								<div class="flow__speech">
@@ -560,9 +560,9 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-requirements js-activate-on-scroll" id="js-section-requirement">
+			<section class="l-requirements">
 				<div class="l-requirements__bg"></div>
-				<div class="l-container">
+				<div class="l-container js-activate-on-scroll slide-in-up" id="js-section-requirement">
 					 <h2 class="section-title">
 						<span class="section-title__ja">募集要項</span>
 					</h2>
@@ -622,8 +622,8 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-message js-activate-on-scroll" id="js-section-message">
-				<div class="l-container">
+			<section class="l-message">
+				<div class="l-container js-activate-on-scroll slide-in-up" id="js-section-message">
 					 <h2 class="section-title">
 						<span class="section-title__ja">さいごに</span>
 					</h2>
@@ -636,7 +636,7 @@
 				</div>
 			</section>
 			<section class="l-closing">
-				<div class="l-container l-container--closing">
+				<div class="l-container l-container--closing js-activate-on-scroll slide-in-up">
 					<h2 class="l-closing__title">「旅叶」にご協力をお願いします！</h2>
 					<a class="l-closing__link decorated-link decorated-link--bordered" href="#">クラウドファンディングページへ</a>
 
@@ -670,6 +670,9 @@
 						</li>
 					</div>
 				</div>
+				<a class="l-closing__go-top js-scroll" href="#js-main">
+					<img src="./public/assets/images/svg/up-arrow.png" alt="">
+				</a>
 			</section>
 		</main>
 		<footer class="footer">

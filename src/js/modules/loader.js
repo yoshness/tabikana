@@ -3,6 +3,7 @@ export default function loader() {
 
   	function loadbar() {
 	    var mainContent = id('js-main'),
+	    	hero = id('js-hero'),
 	    	header = id('js-header'),
 	    	ovrl = id('js-loader'),
 	        prog = id('js-loader-progress'),
@@ -28,12 +29,14 @@ export default function loader() {
 	    function doneLoading(){
 
 	    	ovrl.style.opacity = 0;
-	    	header.style.opacity = 1;
+	    	
 	    	mainContent.style.opacity = 1;
+	    	hero.classList.add('is-shown');
+	    	header.classList.add('is-shown');
 
 	    	setTimeout(function(){ 
 	      		ovrl.style.display = 'none';
-	    	}, 1200);
+	    	}, 2000);
 	    }
 	    for(var i=0; i<tot; i++) {
 	    	var tImg     = new Image();

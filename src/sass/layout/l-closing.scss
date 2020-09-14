@@ -132,7 +132,17 @@
             padding: 20px 0;
         }
 
+        &:hover {
+            &:before {
+                transform: scale(1.2);
+            }
+            &:after {
+                width: 0;
+            }
+        }
+
         &:before {
+            top: 41%;
             right: 15px;
 
             width: 15px;
@@ -142,6 +152,56 @@
             right: 22px;
 
             width: 28px;
+
+            @include max-screen($breakpoint-mobile) {
+                top: 54%;
+
+                width: 23px;
+            }
+        }
+    }
+}
+
+.l-closing__go-top {
+    position: absolute;
+    z-index: 11;
+    right: 50px;
+    bottom: -35px;
+
+    display: flex;
+
+    width: 65px;
+    height: 65px;
+
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 25px 5px rgba(10, 10, 10, .15);
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @include max-screen($breakpoint-mobile) {
+        right: 25px;
+        bottom: -20px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    &:hover {
+        img {
+            transform: translateY(-5px);
+        }
+    }
+
+    img {
+        width: 28px;
+        height: auto;
+
+        transition: transform $duration $easing;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 19px;
         }
     }
 }

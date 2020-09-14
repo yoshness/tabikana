@@ -7,9 +7,15 @@ export default function activateOnScroll() {
         let scroll_position = $(window).scrollTop();
 
         $('.js-activate-on-scroll').each((i, e) => {
-            let target = e, offset = 450;
+            
+            let target = e, offset = 350;
             let target_id = $(e).attr('id');
-            let top_of_object = $(target).offset().top;
+
+            if($(target).data('offset')) {
+                offset = $(target).data('offset');
+            }
+
+            let top_of_object = $(target).offset().top + offset;
             let bottom_of_window = scroll_position + $(window).height();
 
             if(bottom_of_window > top_of_object){
@@ -20,7 +26,7 @@ export default function activateOnScroll() {
             }
 
             // show bullet nav if entering first section and hide when exiting last section
-            if(bottom_of_window > $('#js-section-intro').offset().top + 500) {
+            if(bottom_of_window > $('#js-section-intro').offset().top + 400) {
                 $('.js-bullet-nav').addClass(IS_SHOWN);
             }
             else {

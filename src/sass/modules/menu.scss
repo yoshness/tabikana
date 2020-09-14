@@ -110,8 +110,6 @@
         margin-bottom: 45px;
         padding: 25px 0;
 
-        transition: opacity $duration $easing;
-
         @include max-screen($breakpoint-mobile) {
             font-size: 13px;
 
@@ -141,10 +139,16 @@
         }
 
         &:hover {
-            opacity: .7;
+            &:before {
+                transform: scale(1.35);
+            }
+            &:after {
+                width: 0;
+            }
         }
 
         &:before {
+            top: 40%;
             right: 20px;
 
             width: 15px;

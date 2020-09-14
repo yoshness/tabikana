@@ -1,0 +1,12 @@
+.slide-in-up {
+    transition: all $duration-long $easing;
+    transform: translateY(50px);
+
+    opacity: 0;
+
+    &.is-active {
+        transform: translateY(0);
+
+        opacity: 1;
+    }
+}

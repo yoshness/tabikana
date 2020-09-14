@@ -9,6 +9,7 @@
     padding: 30px;
 
     transition: 1s .4s;
+    transition: opacity 2s $easing;
 
     background-color: #fff;
 }
