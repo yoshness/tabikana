@@ -34,6 +34,8 @@ export default function loader() {
 	    	hero.classList.add('is-shown');
 	    	header.classList.add('is-shown');
 
+	    	window.scrollTo(0, 0);
+
 	    	setTimeout(function(){ 
 	      		ovrl.style.display = 'none';
 	    	}, 2000);

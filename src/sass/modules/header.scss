@@ -64,9 +64,13 @@
 
     height: auto;
 
+    @include max-screen($breakpoint-mobile) {
+        display: inline-block;
+    }
+
     img {
         @include max-screen($breakpoint-mobile) {
-            width: 40%;
+            width: 138px;
         }
     }
 }

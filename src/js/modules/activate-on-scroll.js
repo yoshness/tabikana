@@ -8,11 +8,19 @@ export default function activateOnScroll() {
 
         $('.js-activate-on-scroll').each((i, e) => {
             
-            let target = e, offset = 350;
+            let target = e, offset = 0;
             let target_id = $(e).attr('id');
 
-            if($(target).data('offset')) {
-                offset = $(target).data('offset');
+            if($(window).width() > BREAKPOINT_MOBILE) {
+                if($(target).data('offset')) {
+                    offset = $(target).data('offset');
+                }
+                else {
+                    offset = 150;
+                }
+            }
+            else {
+                offset = 150;
             }
 
             let top_of_object = $(target).offset().top + offset;

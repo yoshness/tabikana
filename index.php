@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="./public/assets/style.css">
 
 		<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
 
 		<link rel="shortcut icon" type="image/png" href="./public/assets/images/favicon.png"/>
 
@@ -29,19 +30,19 @@
 				</a>
 				<ul class="header__list u-flex">
 					<li>
-						<a href="#">
+						<a class="js-scroll" href="#js-section-closing">
 							<img src="./public/assets/images/svg/travel.svg" alt="">
 							<span>旅行者として応募</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdwTabK3oCXI1Ek5bAumxB0pvIskM37Gy3uBIwBrtNe031ksA/viewform?fbclid=IwAR0IRNX74oK28cocOscbiUH0wn0uJm_m1fsN7aAYFT4KcYQa-LiRbgeuMls" target="_blank">
 							<img src="./public/assets/images/svg/doctor.svg" alt="">
 							<span>医療従事者として協力</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="https://camp-fire.jp/projects/view/228083" target="_blank">
 							<img src="./public/assets/images/svg/handshake.svg" alt="">
 							<span>プロジェクトを支援</span>
 						</a>
@@ -150,22 +151,22 @@
 					<small>© 2020 TRAVEL DOCTOR All rights reserved.</small>
 					<ul class="hero__icons">
 						<li>
-							<a href="http://facebook.com" target="_blank">
+							<a href="https://www.facebook.com/reiya.itoh" target="_blank">
 								<i class="icon icon-facebook"></i>
 							</a>
 						</li>
 						<li>
-							<a href="http://twitter.com" target="_blank">
+							<a href="https://twitter.com/i_travel_doctor" target="_blank">
 								<i class="icon icon-twitter"></i>
 							</a>
 						</li>
 						<li>
-							<a href="http://instagram.com" target="_blank">
+							<a href="https://www.instagram.com/I_TRAVEL_DOCTOR" target="_blank">
 								<i class="icon icon-instagram"></i>
 							</a>
 						</li>
 						<li>
-							<a href="#" target="_blank">
+							<a href="https://travel-doctor.jp/" target="_blank">
 								<img src="./public/assets/images/svg/airplane.png" alt="">
 							</a>
 						</li>
@@ -454,7 +455,7 @@
 								</div>
 							</li>
 						</ul>
-						<a class="l-sponsors__link decorated-link" href="#">法人ご担当者様はこちらから</a>
+						<a class="l-sponsors__link decorated-link" href="https://travel-doctor.jp/contact/" target="_blank">法人ご担当者様はこちらから</a>
 					</div>
 				</div>
 			</aside>
@@ -635,10 +636,10 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-closing">
+			<section class="l-closing" id="js-section-closing">
 				<div class="l-container l-container--closing js-activate-on-scroll slide-in-up">
 					<h2 class="l-closing__title">「旅叶」にご協力をお願いします！</h2>
-					<a class="l-closing__link decorated-link decorated-link--bordered" href="#">クラウドファンディングページへ</a>
+					<a class="l-closing__link decorated-link decorated-link--bordered" href="https://camp-fire.jp/projects/view/228083" target="_blank"><img src="./public/assets/images/svg/agreement.svg" alt="">クラウドファンディングページへ</a>
 
 					<div class="l-closing__list u-flex">
 						<li class="l-closing__item">
@@ -656,7 +657,7 @@
 									<img src="./public/assets/images/svg/doctor.svg" alt="">
 								</div>
 								<h3 class="closing-block__title">【 医療従事者の方 】</h3>
-								<a class="decorated-link decorated-link--no-shadow" href="#">医療従事者として応募する</a>
+								<a class="decorated-link decorated-link--no-shadow" href="https://docs.google.com/forms/d/e/1FAIpQLSdwTabK3oCXI1Ek5bAumxB0pvIskM37Gy3uBIwBrtNe031ksA/viewform?fbclid=IwAR0IRNX74oK28cocOscbiUH0wn0uJm_m1fsN7aAYFT4KcYQa-LiRbgeuMls" target="_blank">医療従事者として応募する</a>
 							</div>
 						</li>
 						<li class="l-closing__item">
@@ -665,7 +666,7 @@
 									<img src="./public/assets/images/svg/handshake.svg" alt="">
 								</div>
 								<h3 class="closing-block__title">【 お問い合わせ 】</h3>
-								<a class="decorated-link decorated-link--no-shadow" href="#">その他のお問い合わせ</a>
+								<a class="decorated-link decorated-link--no-shadow" href="https://travel-doctor.jp/contact/" target="_blank">その他のお問い合わせ</a>
 							</div>
 						</li>
 					</div>
@@ -679,7 +680,7 @@
 			<a class="footer__logo" href="#">
 				<img src="./public/assets/images/svg/logo-horizontal.svg" alt="">
 			</a>
-			<a class="footer__privacy" href="#">Privacy Policy</a>
+			<a class="footer__privacy" href="https://travel-doctor.jp/privacy/" target="_blank">Privacy Policy</a>
 			<small class="footer__copyright">© 2020 TRAVEL DOCTOR All rights reserved.</small>
 		</footer>
 

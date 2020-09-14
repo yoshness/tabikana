@@ -3,7 +3,10 @@
     top: 50%;
     left: 50%;
 
-    width: 614px;
+    overflow-y: scroll;
+
+    width: 40.2vw;
+    height: 100%;
     padding: 40px 35px 50px;
 
     transform: translate(-50%, -50%);
@@ -17,6 +20,7 @@
         position: absolute;
 
         width: 100%;
+        height: auto;
         padding: 15px 18px;
     }
 }
@@ -34,8 +38,9 @@
 
     padding: 8px 12px 4px;
 
+    color: #fff;
     border-radius: 25px;
-    background-color: #fdd294;
+    background-color: #1768b3;
 
     @include max-screen($breakpoint-mobile) {
         font-size: 11px;
@@ -111,7 +116,13 @@
 .popup__role {
     font-size: 14px;
 
+    margin-top: 15px;
+
     color: $color-primary;
+
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 10px;
+    }
 }
 
 .popup__message-label {
@@ -143,6 +154,10 @@
         content: '';
 
         background-color: #000;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 70%;
+        }
     }
 }
 
@@ -169,13 +184,13 @@ button.mfp-arrow {
     position: absolute;
     top: 50%;
 
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
 
     transform: translateY(-50%);
 
     border-radius: 50%;
-    background-color: $color-primary;
+    background: linear-gradient(90deg, rgba(23,104,179,1) 0%, rgba(64,165,242,1) 100%);
 
     @include max-screen($breakpoint-mobile) {
         top: auto;
@@ -230,20 +245,24 @@ button.mfp-arrow {
         letter-spacing: .1em;
 
         border: 0;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 14px;
+        }
     }
 
     &.mfp-arrow-left {
-        left: 20%;
+        left: 15vw;
 
         @include max-screen($breakpoint-mobile) {
-            left: 5%;
+            left: 5vw;
         }
     }
     &.mfp-arrow-right {
-        right: 20%;
+        right: 15vw;
 
         @include max-screen($breakpoint-mobile) {
-            right: 5%;
+            right: 5vw;
         }
 
         &:before {
