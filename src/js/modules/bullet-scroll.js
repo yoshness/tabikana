@@ -9,7 +9,7 @@ export default function bulletScroll() {
 		$(e.currentTarget).parent().addClass(IS_ACTIVE);
 
 		let $target = $($(e.currentTarget).attr('href')),
-			offset = 0;
+			offset = -150;
 	    if($target != '') {
 
 	    	if($(e.currentTarget).data('offset')) {

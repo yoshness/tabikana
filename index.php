@@ -86,7 +86,7 @@
 							<a class="js-scroll" href="#js-section-message">さいごに</a>
 						</li>
 						<li class="menu__item menu__item--thin">
-							<a href="#">PRIVACY POLICY</a>
+							<a href="https://travel-doctor.jp/privacy/" target="_blank">PRIVACY POLICY</a>
 						</li>
 					</ul>
 					<div class="menu__buttons">
@@ -128,7 +128,7 @@
 					<a class="js-bullet-scroll" href="#js-section-intro"><span>はじめに</span></a>
 				</li>
 				<li class="bullet-nav__item">
-					<a class="js-bullet-scroll" href="#js-section-overview" data-offset="-600"><span>プロジェクトの背景</span></a>
+					<a class="js-bullet-scroll" href="#js-section-overview" data-offset="-800"><span>プロジェクトの背景</span></a>
 				</li>
 				<li class="bullet-nav__item">
 					<a class="js-bullet-scroll" href="#js-section-about"><span>プロジェクト概要</span></a>
@@ -187,7 +187,7 @@
 							<span class="section-title__ja">はじめに</span>
 						</h2>
 						<p class="intro__description">
-							今般の新型コロナウイルスの感染によりお亡くなりになられた方、<br class="u-show-pc">ご遺族の方々には心からお悔やみを申し上げます。<br>そして、現在も闘病中の患者さん、ご対応にあたっている関係者すべての皆様に<br>心よりお見舞いを申し上げます。<br><br>
+							今般の新型コロナウイルスの感染によりお亡くなりになられた方、<br class="u-show-pc">ご遺族の方々には心からお悔やみを申し上げます。<br>そして、現在も闘病中の患者さん、ご対応にあたっている関係者すべての皆様に心よりお見舞いを申し上げます。<br><br>
 							こんな大変な時だからこそ、これからの“医療”について提案させてください。<br class="u-show-pc">コロナ後に向けて、私たちが今できること。
 						</p>
 						<p class="intro__author">医師　伊藤 玲哉</p>

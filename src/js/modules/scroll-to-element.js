@@ -10,7 +10,7 @@ export default function scrollToElement() {
         }
 
         let $target = $($(e.currentTarget).attr('href').replace('/', '')),
-            offset = 0;
+            offset = -150;
 
         if($(e.currentTarget).data('offset') != undefined) {
             offset = $(e.currentTarget).data('offset');

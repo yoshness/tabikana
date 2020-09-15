@@ -3,10 +3,10 @@
     top: 50%;
     left: 50%;
 
-    overflow-y: scroll;
+    overflow-y: auto;
 
     width: 40.2vw;
-    height: 100%;
+    height: 90%;
     padding: 40px 35px 50px;
 
     transform: translate(-50%, -50%);
@@ -17,13 +17,45 @@
     box-shadow: 0 0 15px 10px rgba(10,10,10,.1);
 
     @include max-screen($breakpoint-mobile) {
-        position: absolute;
+        top: 45%;
 
-        width: 100%;
-        height: auto;
+        overflow: scroll;
+
+        width: 90%;
+        height: 85%;
+        // width: 100%;
+        // height: auto;
         padding: 15px 18px;
     }
 }
+
+// .popup__close {
+//     font-family: $font-crimson;
+//     font-size: 17px;
+//     font-weight: bold;
+//     font-style: italic;
+
+//     position: absolute;
+//     top: 20px;
+//     right: 20px;
+
+//     &:before,
+//     &:after {
+//         display: block;
+
+//         width: 34px;
+//         height: 2px;
+
+//         content: '';
+//         transition: transform $duration $easing;
+//         transform: rotate(45deg);
+
+//         background-color: #000;
+//     }
+//     &:after {
+//         transform: rotate(-45deg) translateX(5px);
+//     }
+// }
 
 .popup__content {
     position: relative;
@@ -192,11 +224,14 @@ button.mfp-arrow {
     background: linear-gradient(90deg, rgba(255,150,0,1) 0%, rgba(252,186,92,1) 100%);
 
     @include max-screen($breakpoint-mobile) {
+        position: fixed;
         top: auto;
-        bottom: -100px;
+        bottom: 10px;
 
-        width: 42px;
-        height: 42px;
+        width: 40px;
+        height: 40px;
+
+        opacity: 1;
     }
 
     &:before {

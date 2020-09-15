@@ -42,6 +42,7 @@ export default function popup() {
 		    items: data,
 		    index: index,
 		    type: 'inline',
+		    closeBtnInside: true,
 		    inline: {
 		       markup: '<div class="popup white-popup" id="js-popup">'+
 						'<div class="popup__content">'+
