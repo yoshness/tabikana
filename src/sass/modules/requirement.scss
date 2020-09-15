@@ -96,6 +96,7 @@
 .requirement__list {
     position: relative;
 
+    min-height: 640px;
     margin-top: 15px;
     padding: 55px 35px 65px;
 
@@ -106,6 +107,7 @@
     background-color: #fff;
 
     @include max-screen($breakpoint-mobile) {
+        min-height: initial;
         padding: 30px 17px 40px;
     }
 

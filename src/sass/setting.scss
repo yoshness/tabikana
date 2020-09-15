@@ -30,28 +30,4 @@ $path-font: "#{$path-assets}/fonts";
 
 $font-crimson: 'Crimson Text', serif;
 $font-crimson-semibold: 'CrimsonText-Semibold';
-$font-asago: 'AsagoHonmaruGothic-Type3';
-
-// @font-face {
-//     font-family: 'CrimsonText-BoldItalic';
-//     src: url('#{$path-font}/CrimsonText-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-//     url('#{$path-font}/CrimsonText-BoldItalic.woff2') format('woff2'),  /* Super Modern Browsers */
-//     url('#{$path-font}/CrimsonText-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
-//     url('#{$path-font}/CrimsonText-BoldItalic.ttf')  format('truetype'),  Safari, Android, iOS 
-// }
-
-// @font-face {
-//     font-family: 'CrimsonText-Semibold';
-//     src: url('#{$path-font}/CrimsonText-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-//     url('#{$path-font}/CrimsonText-Semibold.woff2') format('woff2'),  /* Super Modern Browsers */
-//     url('#{$path-font}/CrimsonText-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
-//     url('#{$path-font}/CrimsonText-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
-// }
-
-@font-face {
-    font-family: 'AsagoHonmaruGothic-Type3';
-    src: url('#{$path-font}/AsagoHonmaruGothic-Type3.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('#{$path-font}/AsagoHonmaruGothic-Type3.woff2') format('woff2'),  /* Super Modern Browsers */
-    url('#{$path-font}/AsagoHonmaruGothic-Type3.woff') format('woff'), /* Pretty Modern Browsers */
-    url('#{$path-font}/AsagoHonmaruGothic-Type3.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
+$font-libre: 'Libre Baskerville', serif;

@@ -19,11 +19,11 @@
     &:after {
         position: absolute;
         top: 50%;
-        left: -260px;
+        left: -262px;
 
         display: block;
 
-        width: 250px;
+        width: 256px;
 
         content: '';
         transform: translateY(-50%);
@@ -32,25 +32,24 @@
         border-style: solid;
 
         @include max-screen($breakpoint-mobile) {
-            left: -53px;
+            left: -56px;
 
             width: 53px;
         }
     }
     &:after {
-        right: -260px;
+        right: -262px;
         left: auto;
 
         @include max-screen($breakpoint-mobile) {
-            right: -53px;
+            right: -56px;
         }
     }
 
     // MODIFIERS
     &.divider--primary {
         background-color: $color-primary;
-        box-shadow: 0 0 0 7px #f9f9f9,
-        0 0 0 8px $color-primary;
+        // box-shadow: 0 0 0 7px #f9f9f9, 0 0 0 8px $color-primary;
 
         &:before,
         &:after {
@@ -59,8 +58,7 @@
     }
     &.divider--secondary {
         background-color: #52abe6;
-        box-shadow: 0 0 0 7px #f9f9f9,
-        0 0 0 8px #52abe6;
+        // box-shadow: 0 0 0 7px #f9f9f9, 0 0 0 8px #52abe6;
 
         &:before,
         &:after {
@@ -72,10 +70,10 @@
         &:after {
             left: -80%;
 
-            width: 80%;
+            width: 78.6%;
 
             @include max-screen($breakpoint-mobile) {
-                left: -53px;
+                left: -56px;
 
                 width: 53px;
             }
@@ -85,11 +83,109 @@
             left: auto;
 
             @include max-screen($breakpoint-mobile) {
-                right: -53px;
+                right: -56px;
 
                 width: 53px;
             }
         }
+    }
+}
+
+.divider__top {
+    position: absolute;
+    top: -8px;
+    left: -7px;
+
+    display: block;
+
+    width: 103%;
+    height: 450px;
+
+    border-top: 2px solid #ff9600;
+    border-radius: 8%;
+
+    @include max-screen($breakpoint-mobile) {
+        top: -5px;
+        left: -3px;
+
+        height: 250px;
+    }
+
+    &:before,
+    &:after {
+        position: absolute;
+        top: 14px;
+        left: -5px;
+
+        display: block;
+
+        width: 27px;
+        height: 9px;
+
+        content: '';
+        transform: rotate(-61deg);
+
+        border-top: 1px solid #ff9600;
+        border-radius: 50%;
+
+        @include max-screen($breakpoint-mobile) {
+            display: none;
+        }
+    }
+    &:after {
+        right: -5px;
+        left: auto;
+
+        transform: rotate(61deg);
+    }
+}
+
+.divider__bottom {
+    position: absolute;
+    bottom: -8px;
+    left: -7px;
+
+    display: block;
+
+    width: 103%;
+    height: 450px;
+
+    border-bottom: 2px solid #ff9600;
+    border-radius: 8%;
+
+    @include max-screen($breakpoint-mobile) {
+        bottom: -5px;
+        left: -3px;
+
+        height: 250px;
+    }
+
+    &:before,
+    &:after {
+        position: absolute;
+        bottom: 14px;
+        left: -5px;
+
+        display: block;
+
+        width: 27px;
+        height: 9px;
+
+        content: '';
+        transform: rotate(-121deg);
+
+        border-top: 1px solid #ff9600;
+        border-radius: 50%;
+
+        @include max-screen($breakpoint-mobile) {
+            display: none;
+        }
+    }
+    &:after {
+        right: -5px;
+        left: auto;
+
+        transform: rotate(121deg);
     }
 }
 

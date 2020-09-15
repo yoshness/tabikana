@@ -10,6 +10,7 @@
 
 		<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
 		<link rel="shortcut icon" type="image/png" href="./public/assets/images/favicon.png"/>
 
@@ -173,7 +174,7 @@
 					</ul>
 				</div>
 				<div class="hero__content">
-					<h1 class="hero__title">旅叶</h1>
+					<h1 class="hero__title"><img src="./public/assets/images/svg/main-title.svg" alt=""></h1>
 					<p class="hero__subtitle">project</p>
 					<p class="hero__description">諦めていた"旅行"を叶えるプロジェクト</p>
 				</div>
@@ -189,6 +190,7 @@
 							今般の新型コロナウイルスの感染によりお亡くなりになられた方、<br class="u-show-pc">ご遺族の方々には心からお悔やみを申し上げます。<br>そして、現在も闘病中の患者さん、ご対応にあたっている関係者すべての皆様に<br>心よりお見舞いを申し上げます。<br><br>
 							こんな大変な時だからこそ、これからの“医療”について提案させてください。<br class="u-show-pc">コロナ後に向けて、私たちが今できること。
 						</p>
+						<p class="intro__author">医師　伊藤 玲哉</p>
 					</section>
 				</div>
 			</div>
@@ -200,7 +202,7 @@
 					<div class="l-overview__eyecatch"></div>
 					<div class="l-container">
 						<p class="l-overview__description">
-							年間140万人が亡くなる中、約100万人が “病室のベッド” で最期を迎えています。<br>つまり、あなたが最期にみる景色は、75%の確率で “病室の天井” になるかもしれません。<br><br>新型コロナウィルスにより、多くの人が “旅行へ行けない” 苦しみを経験しました。<br class="u-show-pc">しかし、コロナが流行するずっと前から、持病で旅行を諦めている人がたくさんいます。
+							年間140万人が亡くなる中、約100万人が “病室のベッド” で最期を迎えています。<br>つまり、あなたが最期にみる景色は、<br class="u-show-sp">75%の確率で “病室の天井” に<br class="u-show-sp">なるかもしれません。<br><br>新型コロナウィルスにより、<br class="u-show-sp">多くの人が “旅行へ行けない” <br class="u-show-sp">苦しみを経験しました。<br>しかし、コロナが流行するずっと前から、<br class="u-show-sp">持病で旅行を諦めている人が<br class="u-show-sp">たくさんいます。
 						</p>
 						<div class="why js-activate-on-scroll slide-in-up">
 							<p class="why__subtitle">解決したい課題</p>
@@ -253,7 +255,7 @@
 							<img src="./public/assets/images/svg/i_doctor.svg" alt="">
 						</div>
 					</div>
-					<p class="l-about__description">旅行にいきたい人と応援したい人を繋ぎ、<br>病気を抱えた人が安心して旅行できる環境をつくる。</p>
+					<p class="l-about__description">旅行にいきたい人と支援したい人を繋ぎ<br>より多くの方が安心して<br class="u-show-sp">旅行できる環境をつくる</p>
 					<div class="l-about__features">
 						<h3 class="l-about__features-title">
 							<div class="l-about__features-dots">
@@ -303,7 +305,9 @@
 						<span class="section-title__ja">メンバーの想い</span>
 					</h2>
 					<div class="divider divider--primary">
+						<span class="divider__top"></span>
 						<h3 class="divider__title">運営チーム</h3>
+						<span class="divider__bottom"></span>
 					</div>
 					<ul class="l-members__list l-members__list--management u-flex">
 						<li class="l-members__item">
@@ -341,7 +345,9 @@
 						</li>
 					</ul>
 					<div class="divider divider--primary js-activate-on-scroll slide-in-up">
+						<span class="divider__top"></span>
 						<h3 class="divider__title">医療チーム</h3>
+						<span class="divider__bottom"></span>
 					</div>
 					<ul class="l-members__list l-members__list--medical u-flex js-activate-on-scroll slide-in-up">
 						<li class="l-members__item">
@@ -488,7 +494,9 @@
 						</div>
 					</div>
 					<div class="divider divider--primary divider--full">
+						<span class="divider__top"></span>
 						<h3 class="divider__title">旅行の流れ</h3>
+						<span class="divider__bottom"></span>
 					</div>
 					<div class="l-flow__content ">
 						<div class="flow u-flex js-activate-on-scroll slide-in-up">
@@ -578,19 +586,19 @@
 							<ul class="requirement__list">
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目1</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">ご病気を抱えていてもら旅行へ行きたい方</p>
 								</li>
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目2</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">ご病気や介護度の重症度は問いません</p>
 								</li>
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目3</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">年齢は問いません（未成年者の場合は、保護者の承諾が必要です）</p>
 								</li>
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目4</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">日本国内に在住の方（離島を含む）</p>
 								</li>
 							</ul>
 						</div>
@@ -604,19 +612,19 @@
 							<ul class="requirement__list">
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目1</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">担当患者さんの旅行を叶えたい方</p>
 								</li>
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目2</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">現地の医療機関として支えたい方</p>
 								</li>
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目3</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">旅行に同行したい方</p>
 								</li>
 								<li class="requirement__item">
 									<h4 class="requirement__item-title">項目4</h4>
-									<p class="requirement__item-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+									<p class="requirement__item-text">旅行同行の経験は問いません</p>
 								</li>
 							</ul>
 						</div>

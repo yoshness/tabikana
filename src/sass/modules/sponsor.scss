@@ -47,33 +47,31 @@
 }
 
 .sponsor__view {
-    font-family: $font-crimson;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1;
+    font-family: $font-libre;
+    font-size: 12px;
 
     position: relative;
 
     display: inline-block;
 
     margin: 45px auto 0;
-    padding: 9px 20px 5px 13px;
+    padding: 5px 20px 5px 13px;
 
     transition: background-color $duration $easing;
     text-align: center;
     text-align: center;
-    letter-spacing: .12em;
+    letter-spacing: .1em;
 
     color: #fff;
     border-radius: 25px;
     background-color: #373735;
 
     @include max-screen($breakpoint-mobile) {
-        font-size: 11px;
+        font-size: 10px;
 
-        margin-top: 10px;
-        padding-top: 6px;
-        padding-bottom: 4px;
+        margin-top: 15px;
+        padding-top: 5px;
+        padding-bottom: 3px;
     }
 
     &:hover {
@@ -95,5 +93,9 @@
 
         border-top: 1px solid #fff;
         border-right: 1px solid #fff;
+
+        @include max-screen($breakpoint-mobile) {
+            right: 11px;
+        }
     }
 }

@@ -167,6 +167,10 @@
 
             width: 15px;
             height: 15px;
+
+            @include max-screen($breakpoint-mobile) {
+                display: none;
+            }
         }
         &:after {
             right: 22px;
@@ -174,9 +178,7 @@
             width: 28px;
 
             @include max-screen($breakpoint-mobile) {
-                top: 54%;
-
-                width: 23px;
+                display: none;
             }
         }
     }
