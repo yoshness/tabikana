@@ -28,11 +28,12 @@
 }
 
 .l-sponsors__list {
-    width: 860px;
+    width: 970px;
     margin: 90px auto 0;
 
     list-style-type: none;
 
+    justify-content: space-evenly;
     @include max-screen($breakpoint-mobile) {
         width: 100%;
         margin-top: 40px;
@@ -41,6 +42,7 @@
 
 .l-sponsors__item {
     width: 30%;
+    margin-bottom: 80px;
 
     @include max-screen($breakpoint-mobile) {
         width: 100%;
@@ -64,9 +66,5 @@
 }
 
 .l-sponsors__link {
-    margin-top: 110px;
-
-    @include max-screen($breakpoint-mobile) {
-        margin-top: 50px;
-    }
+    margin-top: 30px;
 }

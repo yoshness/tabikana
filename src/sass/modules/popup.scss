@@ -17,45 +17,92 @@
     box-shadow: 0 0 15px 10px rgba(10,10,10,.1);
 
     @include max-screen($breakpoint-mobile) {
-        top: 45%;
+        top: 46%;
 
         overflow: scroll;
 
-        width: 90%;
-        height: 85%;
-        // width: 100%;
-        // height: auto;
+        width: 85%;
+        height: 80%;
         padding: 15px 18px;
     }
 }
 
-// .popup__close {
-//     font-family: $font-crimson;
-//     font-size: 17px;
-//     font-weight: bold;
-//     font-style: italic;
+.popup__close {
+    font-family: $font-crimson;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
 
-//     position: absolute;
-//     top: 20px;
-//     right: 20px;
+    position: fixed;
+    z-index: 1043;
+    top: 50px;
+    right: 20px;
 
-//     &:before,
-//     &:after {
-//         display: block;
+    display: none;
 
-//         width: 34px;
-//         height: 2px;
+    letter-spacing: .1em;
 
-//         content: '';
-//         transition: transform $duration $easing;
-//         transform: rotate(45deg);
+    color: $base-font-color;
 
-//         background-color: #000;
-//     }
-//     &:after {
-//         transform: rotate(-45deg) translateX(5px);
-//     }
-// }
+    @include max-screen($breakpoint-mobile) {
+        top: 40px;
+        right: 10px;
+    }
+
+    &:before,
+    &:after {
+        display: block;
+
+        width: 28px;
+        height: 2px;
+
+        content: '';
+        transform: translate(5px, -14px) rotate(45deg);
+
+        background-color: #000;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 26px;
+
+            transform: translate(8px, -16px) rotate(45deg);
+        }
+    }
+    &:after {
+        transform: rotate(-45deg) translate(31px, -26px);
+
+        @include max-screen($breakpoint-mobile) {
+            transform: rotate(-45deg) translate(36px, -25px);
+        }
+    }
+
+    &.popup__close--alt {
+        position: fixed;
+        top: auto;
+        right: auto;
+        bottom: 30px;
+        left: 53%;
+
+        display: none;
+        visibility: hidden;
+
+        transform: translateX(-50%);
+
+        @include max-screen($breakpoint-mobile) {
+            visibility: visible;
+        }
+
+        &:before,
+        &:after {
+            width: 21px;
+
+            transform: translate(-31px, 11px) rotate(45deg);
+        }
+
+        &:after {
+            transform: rotate(-45deg) translate(-10px, -33px);
+        }
+    }
+}
 
 .popup__content {
     position: relative;
@@ -194,7 +241,9 @@
 
 .popup__message {
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.8;
+
+    letter-spacing: .15em;
 }
 
 
@@ -226,7 +275,7 @@ button.mfp-arrow {
     @include max-screen($breakpoint-mobile) {
         position: fixed;
         top: auto;
-        bottom: 10px;
+        bottom: 15px;
 
         width: 40px;
         height: 40px;

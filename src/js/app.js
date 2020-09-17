@@ -10,6 +10,7 @@ import toggleMenu from './modules/toggle-menu';
 import initSliders from './modules/init-sliders';
 import stickyHeader from './modules/sticky-header';
 import scrollToElement from './modules/scroll-to-element';
+import truncateText from './modules/truncate-text';
 
 popup();
 loader();
@@ -19,3 +20,4 @@ toggleMenu();
 initSliders();
 stickyHeader();
 scrollToElement();
+truncateText();
