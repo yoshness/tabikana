@@ -116,7 +116,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" target="_blank">
+							<a href="https://travel-doctor.jp/" target="_blank">
 								<img src="./public/assets/images/svg/airplane.png" alt="">
 							</a>
 						</li>
@@ -317,8 +317,8 @@
 								<div class="member__details">
 									<h4 class="member__name">伊藤 玲哉</h4>
 									<p class="member__role">プロジェクト代表</p>
+									<p class="member__description js-truncate-text">　これまで医師として、多くの方の“最期の瞬間”に立ち会いました。ある終末期患者さんの「旅行に行きたい」という言葉をきっかけに、「医療×旅行＝旅行医」をめざしました。<br>一人でも多くの願いを叶えるため、病気を抱えていても旅行ができる「医師のつくる旅行サポート会社」の設立を決意し、その最初の一歩としてこのプロジェクトを立ち上げました。<br>「旅行へ行きたい」を通じて「今を生きたい」人を応援します。  </p>
 									<a class="member__view js-popup-trigger" href="#" data-index="0">More</a>
-									<p class="member__description js-truncate-text">これまで医師として、多くの方の“最期の瞬間”に立ち会いました。ある終末期患者さんの「旅行に行きたい」という言葉をきっかけに、「医療×旅行＝旅行医」をめざしました。 一人でも多くの願いを叶えるため、病気を抱えていても旅行ができる「医師のつくる旅行サポート会社」の設立を決意し、その最初の一歩としてこのプロジェクトを立ち上げました。「旅行へ行きたい」を通じて「今を生きたい」人を応援します。 </p>
 								</div>
 							</div>
 						</li>
@@ -328,8 +328,8 @@
 								<div class="member__details">
 									<h4 class="member__name">横山 大周</h4>
 									<p class="member__role">マネジメント</p>
+									<p class="member__description js-truncate-text">　幼い頃から“ばあちゃんっ子“だった私は社会人になっても遠くに住むばあちゃんによく会いに行っていました。バイバイ！と言うときはいつも「これで最後かもしれない…」そんな思いを持っていました。<br>　そんな中、突然の別れ。最期の瞬間にも会うことは出来ませんでした。後悔しないように生きていたつもりでしたが、残った感情は「もっとあんなことができたかもしれない」という後悔ばかり。覚悟をしていた自分でも後悔の念が強いということは、同じような気持ちを持つ方も多いのではないかと考えるようになりました。<br><br>「やり残したことをできないまま一生を終える人がいなくなるように。」<br>「後悔する家族が1人でも少なくなるように。」<br>プロジェクトを通じてそんな社会の実現を目指します。</p>
 									<a class="member__view js-popup-trigger" href="#" data-index="1">More</a>
-									<p class="member__description js-truncate-text">幼い頃から“ばあちゃんっ子“だった私は社会人になっても遠くに住むばあちゃんによく会いに行っていました。バイバイ！と言うときはいつも「これで最後かもしれない…」そんな思いを持っていました。<br>そんな中、突然の別れ。最期の瞬間にも会うことは出来ませんでした。<br>後悔しないように生きていたつもりでしたが、残った感情は「もっとあんなことができたかもしれない」という後悔ばかり。<br>覚悟をしていた自分でも後悔の念が強いということは、同じような気持ちを持つ方も多いのではないかと考えるようになりました。<br>「やり残したことをできないまま一生を終える人がいなくなるように。」<br>「後悔する家族が1人でも少なくなるように。」<br>プロジェクトを通じてそんな社会の実現を目指します。</p>
 								</div>
 							</div>
 						</li>
@@ -339,8 +339,8 @@
 								<div class="member__details">
 									<h4 class="member__name">田中 大敦</h4>
 									<p class="member__role">情報発信サポート</p>
+									<p class="member__description js-truncate-text">　私自身、アウトドアで行ったことない場所に行ったり、散歩やドライブで通ったことない道を通ったり、「移動」にとても楽しみを感じてきましたし、職業柄「ひとが移動することの意味」や「気軽に楽しく移動する方法」を考えてきました。<br>　そんな中「移動」を叶えるための別のアプローチに出会い、少しでも多くの方に、当プロジェクトを周知させたいと感じました。</p>
 									<a class="member__view js-popup-trigger" href="#" data-index="2">More</a>
-									<p class="member__description js-truncate-text">私自身、アウトドアで行ったことない場所に行ったり、散歩やドライブで通ったことない道を通ったり、「移動」にとても楽しみを感じてきましたし、職業柄「ひとが移動することの意味」や「気軽に楽しく移動する方法」を考えてきました。そんな中「移動」を叶えるための別のアプローチに出会い、少しでも多くの方に、当プロジェクトを周知させたいと感じました。</p>
 								</div>
 							</div>
 						</li>
@@ -357,8 +357,8 @@
 								<p class="member__tag">医師</p>
 								<h4 class="member__name">伊藤 玲哉</h4>
 								<p class="member__role">トラベルドクター/旅行医</p>
+								<p class="member__description js-truncate-text">　これまで医師として、多くの方の“最期の瞬間”に立ち会いました。ある終末期患者さんの「旅行に行きたい」という言葉をきっかけに、「医療×旅行＝旅行医」をめざしました。 <br>　一人でも多くの願いを叶えるため、病気を抱えていても旅行ができる「医師のつくる旅行サポート会社」の設立を決意し、その最初の一歩としてこのプロジェクトを立ち上げました。<br>「旅行へ行きたい」を通じて「今を生きたい」人を応援します。 </p>
 								<a class="member__view js-popup-trigger" href="#" data-index="0" data-set="medical">More</a>
-								<p class="member__description js-truncate-text">これまで医師として、多くの方の“最期の瞬間”に立ち会いました。ある終末期患者さんの「旅行に行きたい」という言葉をきっかけに、「医療×旅行＝旅行医」をめざしました。 一人でも多くの願いを叶えるため、病気を抱えていても旅行ができる「医師のつくる旅行サポート会社」の設立を決意し、その最初の一歩としてこのプロジェクトを立ち上げました。「旅行へ行きたい」を通じて「今を生きたい」人を応援します。 </p>
 							</div>
 						</li>
 						<li class="l-members__item">
@@ -366,9 +366,9 @@
 								<img class="member__image" src="./public/assets/images/medical-2.png" alt="">
 								<p class="member__tag">看護師</p>
 								<h4 class="member__name">前田 和哉</h4>
-								<p class="member__role">訪問看護師/かなえるナース</p>
+								<p class="member__role">株式会社ハレ/代表</p>
+								<p class="member__description js-truncate-text">　病院や在宅の現場でいつも感じていたのは、「医療や介護が必要になっても、生きがいを感じながら過ごしてほしい」という事でした。<br>　そんな中、がん末期の義母とフォトウェディングを経験したことで、「私たち医療者が本気で支えれば、きっと実現できないことはない」と確信し、夢を叶える看護サービス『かなえるナース』を立ち上げました。<br>旅行に行きたいというあなたの夢を、私達が全力で支えます</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="1" data-set="medical">More</a>
-								<p class="member__description js-truncate-text">病院や在宅の現場でいつも感じていたのは、「医療や介護が必要になっても、生きがいを感じながら過ごしてほしい」という事でした。そんな中、がん末期の義母とフォトウェディングを経験したことで、「私たち医療者が本気で支えれば、きっと実現できないことはない」と確信し、夢を叶える看護サービス『かなえるナース』を立ち上げました。旅行に行きたいというあなたの夢を、私達が全力で支えます</p>
 							</div>
 						</li>
 						<li class="l-members__item">
@@ -376,9 +376,9 @@
 								<img class="member__image" src="./public/assets/images/medical-3.png" alt="">
 								<p class="member__tag">作業療法士</p>
 								<h4 class="member__name">木村 英生</h4>
-								<p class="member__role">情報発信サポート</p>
+								<p class="member__role">リハビリ推進センター</p>
+								<p class="member__description js-truncate-text">　旅を諦めなかった余命3ヶ月の母、旅を諦めた患者さん、そして「生きがい」を探している患者さん。その出会いで、11年前に「リハビリ旅行」を創設しました。<br>　旅行はあくまで人生の通過点であり、そこに行くまでのプロセス(リハビリ)と、旅行後のサポートが重要と考えます。<br>今後も、旅行前～旅行中～旅行後まで諦めないでサポートし続けたいと考えております。その先の「生きがい」探しの為に‥。</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="2" data-set="medical">More</a>
-								<p class="member__description js-truncate-text">旅を諦めなかった余命3ヶ月の母、旅を諦めた患者さん、そして「生きがい」を探している患者さん。その出会いで、11年前に「リハビリ旅行」を創設しました。<br>旅行はあくまで人生の通過点であり、そこに行くまでのプロセス(リハビリ)と、旅行後のサポートが重要と考えます。今後も、旅行前～旅行中～旅行後まで諦めないでサポートし続けたいと考えております。その先の「生きがい」探しの為に‥。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
@@ -386,9 +386,9 @@
 								<img class="member__image" src="./public/assets/images/medical-4.png" alt="">
 								<p class="member__tag">旅行介護士</p>
 								<h4 class="member__name">加藤 信一</h4>
-								<p class="member__role">介護福祉士</p>
+								<p class="member__role">ドリームケアサービス株式会社/代表</p>
+								<p class="member__description js-truncate-text">　都下の老人ホームで介護職として５年間勤務。 旅行や外出を諦めてしまっている方々を多く見ました。「家族に迷惑をかけたくない」「旅先で体調を崩すことが心配だ」など、不安や遠慮により諦めてしまっている方々の夢を叶えるため、外出サポート事業を起業しました。</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="3" data-set="medical">More</a>
-								<p class="member__description js-truncate-text">都下の老人ホームで介護職として５年間勤務。 旅行や外出を諦めてしまっている方々を多く見ました。「家族に迷惑をかけたくない」「旅先で体調を崩すことが心配だ」など、不安や遠慮により諦めてしまっている方々の夢を叶えるため、外出サポート事業を起業しました。</p>
 							</div>
 						</li>
 						<li class="l-members__item">
@@ -396,9 +396,9 @@
 								<img class="member__image" src="./public/assets/images/medical-5.png" alt="">
 								<p class="member__tag">介護タクシー</p>
 								<h4 class="member__name">木原 正昭</h4>
-								<p class="member__role">民間救急サービス</p>
+								<p class="member__role">かごや/代表</p>
+								<p class="member__description js-truncate-text">　世界中の一人でも多くの人が、このプロジェクトを通して【安心・安全・安楽・感動】を感じて頂けるように全力でサポートさせて頂ければ幸いです。 介護旅行と聞くと大げさなものに感じますが、車椅子やストレッチャー(寝台)で何時間もかけて病院の通院をしている方が大勢います。<br>通院は出来るのに外出は出来ないと思い込んでいる方が非常に多いですよね。 通院も立派な外出ですが、たまには行先を変えて楽しみましょう！</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="4" data-set="medical">More</a>
-								<p class="member__description js-truncate-text">世界中の一人でも多くの人が、このプロジェクトを通して【安心・安全・安楽・感動】を感じて頂けるように全力でサポートさせて頂ければ幸いです。 介護旅行と聞くと大げさなものに感じますが、車椅子やストレッチャー(寝台)で何時間もかけて病院の通院をしている方が大勢います。通院は出来るのに外出は出来ないと思い込んでいる方が非常に多いですよね。 通院も立派な外出ですが、たまには行先を変えて楽しみましょう！</p>
 							</div>
 						</li>
 						<li class="l-members__item">
@@ -406,9 +406,9 @@
 								<img class="member__image" src="./public/assets/images/medical-6.png" alt="">
 								<p class="member__tag">旅行会社</p>
 								<h4 class="member__name">秋吉 壯俊</h4>
-								<p class="member__role">不動産業・旅行業</p>
+								<p class="member__role">株式会社秋吉「夢旅」/代表</p>
+								<p class="member__description js-truncate-text">　私自身が15年前に車イスに乗った父を連れて介護旅行をした経験、かつ約10年介護施設を経営した中で外出や旅行に対する想いや夢を諦めているご利用者様やそのご家族様に多く接し「いつでも行きたい時に、行きたい場所に安心して気兼ねなく行ける世の中を創りたい！」という思いから5年前に高齢者の方に特化した旅行会社を立ち上げました。<br>このプロジェクトに参加し一人でも多くの想いや夢を叶えることができたら嬉しいです。</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="5" data-set="medical">More</a>
-								<p class="member__description js-truncate-text">私自身が15年前に車イスに乗った父を連れて介護旅行をした経験、かつ約10年介護施設を経営した中で外出や旅行に対する想いや夢を諦めているご利用者様やそのご家族様に多く接し「いつでも行きたい時に、行きたい場所に安心して気兼ねなく行ける世の中を創りたい！」という思いから5年前に高齢者の方に特化した旅行会社を立ち上げました。このプロジェクトに参加し一人でも多くの想いや夢を叶えることができたら嬉しいです。</p>
 							</div>
 						</li>
 					</ul>
@@ -420,7 +420,7 @@
 								<img class="map__people" src="./public/assets/images/svg/i_supporter.svg" alt="">
 								<p class="map__description">プロジェクトに協力いただける</p>
 								<p class="map__description">医師の人数</p>
-								<p class="map__note">(2020年8月27日現在)</p>
+								<p class="map__note">(2020年9月1日現在)</p>
 								<p class="map__number">524<span>人</span></p>
 							</div>
 							<img class="map__image" src="./public/assets/images/map-japan.png" alt="">
@@ -432,13 +432,13 @@
 				<div class="l-container">
 					<div class="l-sponsors__content">
 						<h2 class="l-sponsors__title">協賛企業</h2>
-						<p class="l-sponsors__note">※法人格を除く社名50音順</p>
 						<ul class="l-sponsors__list u-flex">
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-1.png" alt="">
 									<div class="sponsor__details">
-										<div class="sponsor__name">担当 / 村田 栄蔵</div>
+										<div class="sponsor__name">JALグループ</div>
+										<div class="sponsor__person">担当 / 村田 栄蔵</div>
 										<a class="sponsor__view js-popup-trigger" href="#" data-index="0" data-set="sponsors">More</a>
 									</div>
 								</div>
@@ -447,7 +447,8 @@
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-2.png" alt="">
 									<div class="sponsor__details">
-										<div class="sponsor__name">担当 / 白鳥 央</div>
+										<div class="sponsor__name">第一生命保険</div>
+										<div class="sponsor__person">担当 / 白鳥 央</div>
 										<a class="sponsor__view js-popup-trigger" href="#" data-index="1" data-set="sponsors">More</a>
 									</div>
 								</div>
@@ -456,7 +457,8 @@
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-3.png" alt="">
 									<div class="sponsor__details">
-										<div class="sponsor__name">担当 / 山下真粧子</div>
+										<div class="sponsor__name">東京海上日動</div>
+										<div class="sponsor__person">担当 / 山下 真粧子</div>
 										<a class="sponsor__view js-popup-trigger" href="#" data-index="2" data-set="sponsors">More</a>
 									</div>
 								</div>
@@ -465,7 +467,8 @@
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-4.png" alt="">
 									<div class="sponsor__details">
-										<div class="sponsor__name">担当 / 駒下 純兵</div>
+										<div class="sponsor__name">LOVEGRAPH</div>
+										<div class="sponsor__person">担当 / 駒下 純兵</div>
 										<a class="sponsor__view js-popup-trigger" href="#" data-index="3" data-set="sponsors">More</a>
 									</div>
 								</div>
@@ -474,7 +477,8 @@
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-5.png" alt="">
 									<div class="sponsor__details">
-										<div class="sponsor__name">担当 / 岩井 隆浩</div>
+										<div class="sponsor__name">株式会社 シアン</div>
+										<div class="sponsor__person">担当 / 岩井 隆浩</div>
 										<a class="sponsor__view js-popup-trigger" href="#" data-index="4" data-set="sponsors">More</a>
 									</div>
 								</div>
@@ -716,12 +720,10 @@
 		<script src="./public/assets/app.js"></script>
 
 	    <div class="loader" id="js-loader">
-	    	<div class="loader__inner">
-	    		<div class="loader__image">
-	    			<div class="loader__progress" id="js-loader-progress"></div>
-	    		</div>
-	    		<div class="loader__percent" id="js-loader-pct"></div>
-	    	</div>
+    		<div class="loader__image">
+    			<div class="loader__progress" id="js-loader-progress"></div>
+    		</div>
+    		<div class="loader__percent" id="js-loader-pct"></div>
 	    </div>
 	</body>
 </html>

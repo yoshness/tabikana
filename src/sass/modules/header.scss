@@ -45,6 +45,20 @@
                 display: none;
             }
         }
+
+        &.is-open {
+            .header__inner {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .header__hamburger {
+                top: 40px;
+
+                @include max-screen($breakpoint-mobile) {
+                    top: 15px;
+                }
+            }
+        }
     }
 }
 
@@ -153,20 +167,49 @@
         }
 
         span {
+            height: 3px;
+
             &:first-child {
                 transform: rotate(45deg);
             }
             &:nth-child(2) {
-                transform: rotate(-45deg) translate(4px, -5px);
+                transform: rotate(-45deg) translate(6px, -5px);
             }
             &:last-child {
                 display: none;
             }
         }
+
+        a {
+            &:before {
+                display: block;
+            }
+        }
     }
 
     a {
+        position: relative;
+
         display: block;
+
+        &:before {
+            font-family: $font-crimson;
+            font-size: 17px;
+            font-weight: bold;
+            font-style: italic;
+
+            position: absolute;
+            top: 25px;
+            left: 50%;
+
+            display: none;
+
+            content: 'Close';
+            transform: translateX(-50%);
+            letter-spacing: .1em;
+
+            color: $base-font-color;
+        }
     }
 
     span {

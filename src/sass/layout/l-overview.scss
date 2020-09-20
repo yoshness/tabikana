@@ -88,9 +88,12 @@
         background-color: #fff;
 
         @include max-screen($breakpoint-mobile) {
-            bottom: 40px;
+            bottom: 15px;
 
             height: 60px;
+        }
+        @include max-screen(376px) {
+            bottom: 40px;
         }
     }
 
@@ -99,8 +102,8 @@
         bottom: 50px;
         left: 50%;
 
-        width: 9px;
-        height: 9px;
+        width: 10px;
+        height: 10px;
 
         content: '';
         transform: translateX(-50%);
@@ -109,6 +112,9 @@
         background-color: #fff;
 
         @include max-screen($breakpoint-mobile) {
+            bottom: 75px;
+        }
+        @include max-screen(376px) {
             bottom: 100px;
         }
     }

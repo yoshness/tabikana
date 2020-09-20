@@ -1,7 +1,10 @@
 .why {
     @include max-screen($breakpoint-mobile) {
-        margin-top: -40px;
+        margin-top: -15px;
         padding: 0 15px;
+    }
+    @include max-screen(376px) {
+        margin-top: -40px;
     }
 }
 

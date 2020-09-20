@@ -1,5 +1,15 @@
 export default function scrollToElement() {
-    const $trigger = $('.js-scroll');
+    const $trigger = $('.js-scroll'),
+          BREAKPOINT_MOBILE = 768;
+
+    let duration;          
+
+    if($(window).width() > BREAKPOINT_MOBILE) {
+        duration = 1000;
+    }
+    else {
+        duration = 1800;
+    }
 
     $trigger.on('click', (e) => {
         e.preventDefault();
@@ -17,7 +27,7 @@ export default function scrollToElement() {
         }
 
         if($target != '') {
-            $('html, body').stop().animate({ scrollTop: $target.offset().top + offset }, 1000);
+            $('html, body').stop().animate({ scrollTop: $target.offset().top + offset }, duration);
         }
     });
 }
