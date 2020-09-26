@@ -3,7 +3,9 @@
 
     height: 100vh;
 
-    transition: opacity 1s $easing;
+    -webkit-transition: -webkit-filter 1.5s $easing 1.5s;
+            transition: opacity 1s $easing,
+    filter 1.5s $easing 1.5s;
 
     opacity: 0;
     background-image: url(#{$path-image}/hero-bg.jpg);
@@ -11,6 +13,7 @@
     background-position: center center;
     background-size: cover;
 
+    filter: blur(10px);
     @include max-screen($breakpoint-mobile) {
         min-height: 693px;
 
@@ -20,13 +23,11 @@
     &.is-shown {
         opacity: 1;
 
+        filter: none;
+
         .hero__left,
         .hero__scroll {
             opacity: 1;
-        }
-
-        .hero__content {
-            filter: none;
         }
     }
 }
@@ -36,11 +37,9 @@
     top: 50%;
     left: 50%;
 
-    -webkit-transition: -webkit-filter 1.5s $easing 1.5s;
     transform: translate(-50%, -50%);
     text-align: center;
 
-    filter: blur(10px);
     @include max-screen($breakpoint-mobile) {
         width: 85%;
     }
@@ -103,6 +102,19 @@
 
         a {
             color: $base-font-color;
+
+            &:hover {
+                i {
+                    color: $color-primary;
+                }
+            }
+
+            i {
+                transition: color .2s $easing;
+            }
+            img {
+                transition: transform .2s $easing;
+            }
         }
 
         img {
@@ -111,6 +123,18 @@
             margin-left: -3px;
 
             object-fit: contain;
+        }
+
+        &:last-child {
+            a {
+                &:hover {
+                    img {
+                        display: block;
+
+                        transform: translateX(10px);
+                    }
+                }
+            }
         }
     }
 }
@@ -163,7 +187,7 @@
         margin-top: 30px;
         padding: 15px 17px;
 
-        letter-spacing: .08em;
+        letter-spacing: .06em;
     }
 }
 

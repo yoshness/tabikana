@@ -38,7 +38,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdwTabK3oCXI1Ek5bAumxB0pvIskM37Gy3uBIwBrtNe031ksA/viewform?fbclid=IwAR0IRNX74oK28cocOscbiUH0wn0uJm_m1fsN7aAYFT4KcYQa-LiRbgeuMls" target="_blank">
+						<a class="js-scroll" href="#js-section-closing">
 							<img src="./public/assets/images/svg/doctor.svg" alt="">
 							<span>医療従事者として協力</span>
 						</a>
@@ -94,24 +94,24 @@
 						<a class="decorated-link decorated-link--no-shadow menu__button--primary" href="https://camp-fire.jp/projects/view/228083" target="_blank"><img src="./public/assets/images/svg/agreement.svg" alt="">クラウドファンディングページへ</a>
 						<div class="menu__buttons-divider"></div>
 						<a class="decorated-link decorated-link--disabled decorated-link--no-shadow" href="#"><img src="./public/assets/images/svg/travel.svg" alt="">旅行者として応募する</a>
-						<a class="decorated-link decorated-link--no-shadow" href="https://docs.google.com/forms/d/e/1FAIpQLSdwTabK3oCXI1Ek5bAumxB0pvIskM37Gy3uBIwBrtNe031ksA/viewform?fbclid=IwAR0IRNX74oK28cocOscbiUH0wn0uJm_m1fsN7aAYFT4KcYQa-LiRbgeuMls" target="_blank"><img src="./public/assets/images/svg/doctor.svg" alt="">医療従事者として応募する</a>
+						<a class="decorated-link decorated-link--disabled decorated-link--no-shadow" href="#"><img src="./public/assets/images/svg/doctor.svg" alt="">医療従事者として応募する</a>
 						<a class="decorated-link decorated-link--no-shadow" href="https://travel-doctor.jp/contact/" target="_blank"><img src="./public/assets/images/svg/handshake.svg" alt="">その他のお問い合わせ</a>
 					</div>
 				</div>
 				<div class="menu__sns">
 					<ul class="menu__icons u-flex">
 						<li>
-							<a href="http://twitter.com" target="_blank">
+							<a href="https://www.facebook.com/reiya.itoh" target="_blank">
 								<i class="icon icon-twitter"></i>
 							</a>
 						</li>
 						<li>
-							<a href="http://facebook.com" target="_blank">
+							<a href="https://twitter.com/i_travel_doctor" target="_blank">
 								<i class="icon icon-facebook"></i>
 							</a>
 						</li>
 						<li>
-							<a href="http://instagram.com" target="_blank">
+							<a href="https://www.instagram.com/I_TRAVEL_DOCTOR" target="_blank">
 								<i class="icon icon-instagram"></i>
 							</a>
 						</li>
@@ -243,7 +243,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="l-about js-activate-on-scroll slide-in-up" id="js-section-about">
+			<section class="l-about js-activate-on-scroll slide-in-up" id="js-section-about" data-offset="400">
 				<div class="l-container">
 					 <h2 class="section-title">
 						<span class="section-title__ja">プロジェクト概要</span>
@@ -254,6 +254,9 @@
 						</div>
 						<div class="l-about__eyecatch-image">
 							<img src="./public/assets/images/svg/i_doctor.svg" alt="">
+						</div>
+						<div class="l-about__eyecatch-image l-about__eyecatch-image--combined">
+							<img src="./public/assets/images/svg/step-3.svg" alt="">
 						</div>
 					</div>
 					<p class="l-about__description">旅行にいきたい人と支援したい人を繋ぎ<br>より多くの方が安心して<br class="u-show-sp">旅行できる環境をつくる</p>
@@ -339,7 +342,7 @@
 								<div class="member__details">
 									<h4 class="member__name">田中 大敦</h4>
 									<p class="member__role">情報発信サポート</p>
-									<p class="member__description js-truncate-text">　私自身、アウトドアで行ったことない場所に行ったり、散歩やドライブで通ったことない道を通ったり、「移動」にとても楽しみを感じてきましたし、職業柄「ひとが移動することの意味」や「気軽に楽しく移動する方法」を考えてきました。<br>　そんな中「移動」を叶えるための別のアプローチに出会い、少しでも多くの方に、当プロジェクトを周知させたいと感じました。</p>
+									<p class="member__description js-truncate-text">　私自身、アウトドアで自然を満喫したり通ったことのない道を散歩したり、「移動すること」や「非日常に身を置くこと」に強い喜びを感じて生活しています。また、職業柄から「ひとが移動することの意義」や「楽しく安心して移動する方法」を絶えず考えてきました。<br>　そんな中「移動」を叶えるための別アプローチであるこのプロジェクトに出会いました。少しでも多くの方に、このプロジェクトを知っていただきたく参画させていただいております。</p>
 									<a class="member__view js-popup-trigger" href="#" data-index="2">More</a>
 								</div>
 							</div>
@@ -384,10 +387,10 @@
 						<li class="l-members__item">
 							<div class="member">
 								<img class="member__image" src="./public/assets/images/medical-4.png" alt="">
-								<p class="member__tag">旅行介護士</p>
+								<p class="member__tag">介護士</p>
 								<h4 class="member__name">加藤 信一</h4>
 								<p class="member__role">ドリームケアサービス株式会社/代表</p>
-								<p class="member__description js-truncate-text">　都下の老人ホームで介護職として５年間勤務。 旅行や外出を諦めてしまっている方々を多く見ました。「家族に迷惑をかけたくない」「旅先で体調を崩すことが心配だ」など、不安や遠慮により諦めてしまっている方々の夢を叶えるため、外出サポート事業を起業しました。</p>
+								<p class="member__description js-truncate-text">　都下の老人ホームで介護職として５年間勤務。 旅行や外出を諦めてしまっている方々を多く見ました。「家族に迷惑をかけたくない」「旅先で体調を崩すことが心配だ」など、不安や遠慮により諦めてしまっている方々の夢を叶えるため、外出サポート事業を起業しました。このプロジェクトを通じて、「旅を諦めない社会」を皆さんと一緒に実現したいと願っております。</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="3" data-set="medical">More</a>
 							</div>
 						</li>
@@ -396,7 +399,7 @@
 								<img class="member__image" src="./public/assets/images/medical-5.png" alt="">
 								<p class="member__tag">介護タクシー</p>
 								<h4 class="member__name">木原 正昭</h4>
-								<p class="member__role">かごや/代表</p>
+								<p class="member__role">かご屋/代表</p>
 								<p class="member__description js-truncate-text">　世界中の一人でも多くの人が、このプロジェクトを通して【安心・安全・安楽・感動】を感じて頂けるように全力でサポートさせて頂ければ幸いです。 介護旅行と聞くと大げさなものに感じますが、車椅子やストレッチャー(寝台)で何時間もかけて病院の通院をしている方が大勢います。<br>通院は出来るのに外出は出来ないと思い込んでいる方が非常に多いですよね。 通院も立派な外出ですが、たまには行先を変えて楽しみましょう！</p>
 								<a class="member__view js-popup-trigger" href="#" data-index="4" data-set="medical">More</a>
 							</div>
@@ -433,7 +436,7 @@
 					<div class="l-sponsors__content">
 						<h2 class="l-sponsors__title">協賛企業</h2>
 						<ul class="l-sponsors__list u-flex">
-							<li class="l-sponsors__item">
+							<!-- <li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-1.png" alt="">
 									<div class="sponsor__details">
@@ -442,14 +445,14 @@
 										<a class="sponsor__view js-popup-trigger" href="#" data-index="0" data-set="sponsors">More</a>
 									</div>
 								</div>
-							</li>
+							</li> -->
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-2.png" alt="">
 									<div class="sponsor__details">
 										<div class="sponsor__name">第一生命保険</div>
 										<div class="sponsor__person">担当 / 白鳥 央</div>
-										<a class="sponsor__view js-popup-trigger" href="#" data-index="1" data-set="sponsors">More</a>
+										<a class="sponsor__view js-popup-trigger" href="#" data-index="0" data-set="sponsors">More</a>
 									</div>
 								</div>
 							</li>
@@ -459,7 +462,7 @@
 									<div class="sponsor__details">
 										<div class="sponsor__name">東京海上日動</div>
 										<div class="sponsor__person">担当 / 山下 真粧子</div>
-										<a class="sponsor__view js-popup-trigger" href="#" data-index="2" data-set="sponsors">More</a>
+										<a class="sponsor__view js-popup-trigger" href="#" data-index="1" data-set="sponsors">More</a>
 									</div>
 								</div>
 							</li>
@@ -469,7 +472,7 @@
 									<div class="sponsor__details">
 										<div class="sponsor__name">LOVEGRAPH</div>
 										<div class="sponsor__person">担当 / 駒下 純兵</div>
-										<a class="sponsor__view js-popup-trigger" href="#" data-index="3" data-set="sponsors">More</a>
+										<a class="sponsor__view js-popup-trigger" href="#" data-index="2" data-set="sponsors">More</a>
 									</div>
 								</div>
 							</li>
@@ -479,7 +482,7 @@
 									<div class="sponsor__details">
 										<div class="sponsor__name">株式会社 シアン</div>
 										<div class="sponsor__person">担当 / 岩井 隆浩</div>
-										<a class="sponsor__view js-popup-trigger" href="#" data-index="4" data-set="sponsors">More</a>
+										<a class="sponsor__view js-popup-trigger" href="#" data-index="3" data-set="sponsors">More</a>
 									</div>
 								</div>
 							</li>
@@ -606,24 +609,23 @@
 								<h3 class="requirement__title">行きたい</h3>
 								<span class="requirement__tag">旅行者</span>
 							</div>
-							<ul class="requirement__list">
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目1</h4>
-									<p class="requirement__item-text">ご病気を抱えていてもら旅行へ行きたい方</p>
-								</li>
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目2</h4>
-									<p class="requirement__item-text">ご病気や介護度の重症度は問いません</p>
-								</li>
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目3</h4>
-									<p class="requirement__item-text">年齢は問いません（未成年者の場合は、保護者の承諾が必要です）</p>
-								</li>
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目4</h4>
-									<p class="requirement__item-text">日本国内に在住の方（離島を含む）</p>
-								</li>
-							</ul>
+							<div class="requirement__content">
+								<ul class="requirement__list">
+									<li class="requirement__item">
+										<h4 class="requirement__item-title">その１</h4>
+										<p class="requirement__item-text">ご病気を理由に、これまで旅行を諦めてしまっていた方</p>
+									</li>
+									<li class="requirement__item">
+										<h4 class="requirement__item-title">その２</h4>
+										<p class="requirement__item-text">ご病気や介護度の重症度は問いません。<br>日本国内（離島を含みます）に住んでいる全ての年齢の<br>方が応募可能です。</p>
+									</li>
+									<li class="requirement__item">
+										<h4 class="requirement__item-title">その３</h4>
+										<p class="requirement__item-text">当プロジェクトの取り組みに賛同してくださる方</p>
+									</li>
+								</ul>
+								<p class="requirement__note">※詳しくは、エントリーフォームの募集要項をお読みください。</p>
+							</div>
 						</div>
 						<div class="requirement">
 							<div class="requirement__bg"></div>
@@ -632,24 +634,23 @@
 								<h3 class="requirement__title">協力したい</h3>
 								<span class="requirement__tag">医療従事者</span>
 							</div>
-							<ul class="requirement__list">
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目1</h4>
-									<p class="requirement__item-text">担当患者さんの旅行を叶えたい方</p>
-								</li>
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目2</h4>
-									<p class="requirement__item-text">現地の医療機関として支えたい方</p>
-								</li>
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目3</h4>
-									<p class="requirement__item-text">旅行に同行したい方</p>
-								</li>
-								<li class="requirement__item">
-									<h4 class="requirement__item-title">項目4</h4>
-									<p class="requirement__item-text">旅行同行の経験は問いません</p>
-								</li>
-							</ul>
+							<div class="requirement__content">
+								<ul class="requirement__list">
+									<li class="requirement__item">
+										<h4 class="requirement__item-title">その１</h4>
+										<p class="requirement__item-text">ご担当されている患者さんの“旅行”を叶えたいという想いをお持ちの方</p>
+									</li>
+									<li class="requirement__item">
+										<h4 class="requirement__item-title">その２</h4>
+										<p class="requirement__item-text">旅行先での医療機関として、患者さんの旅行を支えたいという想いをお持ちの方</p>
+									</li>
+									<li class="requirement__item">
+										<h4 class="requirement__item-title">その３</h4>
+										<p class="requirement__item-text">サポートメンバーとして旅行に同行し、一緒に旅行実現したいという想いをお持ちの方</p>
+									</li>
+								</ul>
+								<p class="requirement__note">※詳しくは、エントリーフォームの募集要項をお読みください。</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -688,7 +689,7 @@
 									<img src="./public/assets/images/svg/doctor.svg" alt="">
 								</div>
 								<h3 class="closing-block__title">【 医療従事者の方 】</h3>
-								<a class="decorated-link decorated-link--no-shadow" href="https://docs.google.com/forms/d/e/1FAIpQLSdwTabK3oCXI1Ek5bAumxB0pvIskM37Gy3uBIwBrtNe031ksA/viewform?fbclid=IwAR0IRNX74oK28cocOscbiUH0wn0uJm_m1fsN7aAYFT4KcYQa-LiRbgeuMls" target="_blank">医療従事者として応募する</a>
+								<a class="decorated-link decorated-link--disabled decorated-link--no-shadow" href="#">Coming Soon</a>
 							</div>
 						</li>
 						<li class="l-closing__item">

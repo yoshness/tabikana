@@ -4,7 +4,7 @@ export default function initSliders() {
 	$('#js-flow-primary').slick({
 		speed: 500,
 		slidesToShow: 2.5,
-		slidesToScroll: 1,
+		slidesToScroll: 2,
 		cssEase: 'ease-out',
 		dots: false,
 		infinite: false,
@@ -27,7 +27,7 @@ export default function initSliders() {
 	$('#js-flow-doctor').slick({
 		speed: 500,
 		slidesToShow: 2.5,
-		slidesToScroll: 1,
+		slidesToScroll: 2,
 		cssEase: 'ease-out',
 		dots: false,
 		infinite: false,
@@ -44,6 +44,6 @@ export default function initSliders() {
 	});
 
 	$('#js-flow-doctor').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-	    $('#js-flow-marker-2').css('left', `${nextSlide * 2.7.toString().replace('.', '')}%`);
+	    $('#js-flow-marker-2').css('left', `${nextSlide * 20}%`);
 	});
 }

@@ -2,9 +2,9 @@
     position: fixed;
     z-index: 11;
     top: 0;
-    right: -70%;
+    right: -72%;
 
-    width: 70%;
+    width: 72%;
     min-height: 100vh;
     margin-left: auto;
     padding: 90px 120px 95px;
@@ -33,8 +33,6 @@
         }
     }
 }
-
-
 
 .menu__links {
     width: 40%;
@@ -225,6 +223,18 @@
         @include max-screen($breakpoint-mobile) {
             padding: 24px 0;
         }
+
+        img {
+            left: 22px;
+
+            width: 38px;
+
+            @include max-screen($breakpoint-mobile) {
+                left: 20px;
+
+                width: 23px;
+            }
+        }
     }
 }
 
@@ -274,8 +284,20 @@
             i {
                 font-size: 25px;
 
+                transition: color .2s $easing;
+
                 @include max-screen($breakpoint-mobile) {
                     font-size: 20px;
+                }
+            }
+
+            img {
+                transition: transform .2s $easing;
+            }
+
+            &:hover {
+                i {
+                    color: $color-primary;
                 }
             }
         }
@@ -294,6 +316,18 @@
                 width: 32px;
             }
         }
+
+        &:last-child {
+            a {
+                &:hover {
+                    img {
+                        display: block;
+
+                        transform: translateX(10px);
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -302,5 +336,14 @@
         width: 83px;
         height: auto;
         margin: 0 auto 50px;
+    }
+}
+
+
+.is-iphone {
+    .menu__sns {
+        @include max-screen($breakpoint-mobile) {
+            padding-bottom: 150px;
+        }
     }
 }
