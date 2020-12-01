@@ -7,7 +7,7 @@ const SRC_JS = 'src/js',
       ASSETS_FOLDER = './public/assets';
 
 mix.sass(`${SRC_CSS}/style.scss`, ASSETS_FOLDER)
-   .js(`${SRC_JS}/app.js`, ASSETS_FOLDER)
+   .js(`${SRC_JS}/credits.js`, ASSETS_FOLDER)
    .options({
       processCssUrls: false
    })
