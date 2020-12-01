@@ -436,16 +436,14 @@
 					<div class="l-sponsors__content">
 						<h2 class="l-sponsors__title">協賛企業</h2>
 						<ul class="l-sponsors__list u-flex">
-							<!-- <li class="l-sponsors__item">
+							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-1.png" alt="">
 									<div class="sponsor__details">
-										<div class="sponsor__name">JALグループ</div>
-										<div class="sponsor__person">担当 / 村田 栄蔵</div>
-										<a class="sponsor__view js-popup-trigger" href="#" data-index="0" data-set="sponsors">More</a>
+										<div class="sponsor__name">日本航空株式会社</div>
 									</div>
 								</div>
-							</li> -->
+							</li>
 							<li class="l-sponsors__item">
 								<div class="sponsor">
 									<img src="./public/assets/images/sponsor-2.png" alt="">
